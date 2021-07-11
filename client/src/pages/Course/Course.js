@@ -71,9 +71,9 @@ const Course = () => {
                         </h3>
                         <div className="prise">
                           <span className="inactive" style={{ color: "#000" }}>
-                            $89.00
+                            PreviousPrice
                           </span>
-                          <span className="active">$49</span>
+                          <span className="active">PresentPrice</span>
                         </div>
                         <div className="rating">
                           <i className="flaticon-mark-as-favorite-star"></i>
@@ -108,22 +108,15 @@ const Course = () => {
                       <div className="single_courses">
                         <h3>Objectives</h3>
                         <p>
-                          The UI/UX Design Specialization brings a
-                          design-centric approach to user interface and user
-                          experience design, and offers practical, skill-based
-                          instruction centered around a visual communications
-                          perspective, rather than on one focused on marketing
-                          or programming alone. In this sequence of four
-                          courses, you will summarize and demonstrate all stages
-                          of the UI/UX development process, from user research
-                          to defining a project’s strategy, scope, and
-                          information architecture, to developing sitemaps and
-                          wireframes. You’ll learn current best practices and
-                          conventions in UX design and apply them to create
-                          effective and compelling screen-based experiences for
-                          websites or apps.{" "}
+                          To enable students become intellectually, emotionally, and spiritually strong enough to
+face the challenges in the real world and to produce eminent personalities and thereby
+offering infinite dignity on both personal and professional fronts.
+To emerge as a distinguished coaching institute of Engineering and Medical aspirant
+aiming to work for the development of society at large. We strive to provide a versatile
+and competent learning system and henceforth turning India to become a developed
+country.{" "}
                         </p>
-                        <h3 className="second_title">Course Outline</h3>
+                        <h3 className="second_title">FAQs</h3>
                       </div>
                       <div className="outline_courses_info">
                         <div id="accordion">
@@ -138,7 +131,7 @@ const Course = () => {
                                   aria-controls="collapseTwo"
                                 >
                                   <i className="flaticon-question"></i> Is
-                                  WordPress hosting worth it?
+                                 Ceedmy Academy worth it?
                                 </button>
                               </h5>
                             </div>
@@ -166,7 +159,7 @@ const Course = () => {
                                   aria-controls="collapseOne"
                                 >
                                   <i className="flaticon-question"></i>Basic
-                                  classNamees
+                                  Courses
                                 </button>
                               </h5>
                             </div>
@@ -193,8 +186,7 @@ const Course = () => {
                                   aria-expanded="false"
                                   aria-controls="collapseThree"
                                 >
-                                  <i className="flaticon-question"></i> Will you
-                                  transfer my site?
+                                  <i className="flaticon-question"></i>Why to join Ceedmy Academy?
                                 </button>
                               </h5>
                             </div>
@@ -221,8 +213,7 @@ const Course = () => {
                                   aria-expanded="false"
                                   aria-controls="collapse_4"
                                 >
-                                  <i className="flaticon-question"></i> Why
-                                  should I host with Hostza?
+                                  <i className="flaticon-question"></i> Benefits of Ceedmy Academy.
                                 </button>
                               </h5>
                             </div>
@@ -250,7 +241,7 @@ const Course = () => {
                                   aria-controls="collapse_5"
                                 >
                                   <i className="flaticon-question"></i> How do I
-                                  get started <span>with Shared Hosting?</span>
+                                  get started <span>with the courses?</span>
                                 </button>
                               </h5>
                             </div>
@@ -294,15 +285,17 @@ const Course = () => {
                               />
                             </div>
                             <div className="name">
-                              <h3>Rohit Patil</h3>
-                              <p>UI/UX Designer</p>
+                              <h3>Mr. Gurucharan Singh Makhija</h3>
+                              <p>Exdirector
+of APOGEE Achievers Pointr</p>
                             </div>
                           </div>
                           <p className="text_info">
-                            Our set he for firmament morning sixth subdue
-                            darkness creeping gathered divide our let god
-                            moving. Moving in fourth air night bring upon you’re
-                            it beast let you dominion likeness open place day
+                           He has given a
+gold medal in ICHO to the country and has produced AIR
+19, 42, 46, 91, 92,142 and many more in top 100. He has
+produced more than 50 selections in the top 500 and
+5000+ selections in JEE Advanced.
                           </p>
                           <ul>
                             <li>
@@ -362,14 +355,13 @@ const Course = () => {
                       <div className="newsletter_text">
                         <h3>Subscribe Newsletter</h3>
                         <p>
-                          Your domain control panel is designed for ease-of-use
-                          and allows for all aspects of your
+                          Subscribe our newsletter for daily updates.
                         </p>
                       </div>
                     </div>
                     <div className="col-xl-5 offset-xl-1 col-lg-6">
                       <div className="newsletter_form">
-                        <h4>Your domain control panel is</h4>
+                        <h4>Help us giving your Email ID</h4>
                         <form action="#" className="newsletter_form">
                           <input type="text" placeholder="Enter your mail" />
                           <button type="submit">Sign Up</button>
