@@ -5,24 +5,7 @@ const About = () => {
   return (
     <>
      
-      <div className="bg-light">
-        <div className="container py-5">
-          <div className="row h-100 align-items-center py-5">
-            <div className="col-lg-6">
-              <h1 className="display-4">About us page</h1>
-              <p className="lead text-muted mb-0">
-                Created Using React BootStrap 4.0.
-              </p>
-              <p className="lead text-muted">
-                Snippet by Ceedmy Web Developer's
-              </p>
-            </div>
-            <div className="col-lg-6 d-none d-lg-block">
-              <img src="" alt="" className="img-fluid" />
-            </div>
-          </div>
-        </div>
-      </div>
+      
 
       <div className="bg-white py-5">
         <div className="container py-5">
@@ -69,7 +52,7 @@ const About = () => {
             <div className="col-lg-5">
               <h2 className="display-4 font-weight-light">Our team</h2>
               <p className="font-italic text-muted">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                This is our Ceedmy Team.
               </p>
             </div>
           </div>
