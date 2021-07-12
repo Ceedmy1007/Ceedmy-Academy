@@ -14,7 +14,7 @@ const About = () => {
               <i className="fa fa-bar-chart fa-2x mb-3 text-primary"></i>
               <h2 className="font-weight-light">Ceedmy Acadmey Courses</h2>
               <p className="font-italic text-muted mb-4">
-                We have the experience to guide and prepare the aspirants for
+               We have tje experienced teachers. We have the experience to guide and prepare the aspirants for
                 all kinds of government jobs especially for UPSC, MPSC, SSC
                 BANK, RAILWAY, MBA CAT CET XAT MAT CMAT CLAT and MAH CET LAW
                 entrance exams.
