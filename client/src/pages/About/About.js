@@ -12,7 +12,7 @@ const About = () => {
           <div className="row align-items-center mb-5">
             <div className="col-lg-6 order-2 order-lg-1">
               <i className="fa fa-bar-chart fa-2x mb-3 text-primary"></i>
-              <h2 className="font-weight-light">About Ceedmy Acadmey</h2>
+              <h2 className="font-weight-light">About Ceedmy Academy</h2>
               <p className="font-italic text-muted mb-4">
                “ A GOOD COACH CAN CHANGE A GAME . A GREAT COACH CAN CHANGE A LIFE “.
                 The aim of CEEDMY is to create the LIFE you LOVE. Here at CEEDMY, we
@@ -73,7 +73,7 @@ const About = () => {
                   width="100"
                   className="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm"
                 />
-                <h5 className="mb-0">Sam Wilimson</h5>
+                <h5 className="mb-0">Pandharinath Yeram</h5>
                 <span className="small text-uppercase text-muted">
                   CEO - Founder
                 </span>
@@ -110,7 +110,7 @@ const About = () => {
                   width="100"
                   className="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm"
                 />
-                <h5 className="mb-0">Jackson Hardy</h5>
+                <h5 className="mb-0">Mohammad Shahid</h5>
                 <span className="small text-uppercase text-muted">
                   CEO - Founder
                 </span>
@@ -147,7 +147,7 @@ const About = () => {
                   width="100 "
                   className="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm "
                 />
-                <h5 className="mb-0 ">Jhon Rinch</h5>
+                <h5 className="mb-0 ">P. Koyande</h5>
                 <span className="small text-uppercase text-muted ">
                   CEO - Founder
                 </span>
@@ -184,7 +184,7 @@ const About = () => {
                   width="100 "
                   className="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm "
                 />
-                <h5 className="mb-0 ">Rinky Thomas</h5>
+                <h5 className="mb-0 ">R. Jadhav</h5>
                 <span className="small text-uppercase text-muted ">
                   CEO - Founder
                 </span>
