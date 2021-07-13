@@ -12,12 +12,18 @@ const About = () => {
           <div className="row align-items-center mb-5">
             <div className="col-lg-6 order-2 order-lg-1">
               <i className="fa fa-bar-chart fa-2x mb-3 text-primary"></i>
-              <h2 className="font-weight-light">Ceedmy Acadmey Courses</h2>
+              <h2 className="font-weight-light">About Ceedmy Acadmey</h2>
               <p className="font-italic text-muted mb-4">
-               We have tje experienced teachers. We have the experience to guide and prepare the aspirants for
-                all kinds of government jobs especially for UPSC, MPSC, SSC
-                BANK, RAILWAY, MBA CAT CET XAT MAT CMAT CLAT and MAH CET LAW
-                entrance exams.
+               “ A GOOD COACH CAN CHANGE A GAME . A GREAT COACH CAN CHANGE A LIFE “.
+                The aim of CEEDMY is to create the LIFE you LOVE. Here at CEEDMY, we
+                provide personalized and effective learning programs for competitive exams 
+                like UPSC, SPSC, IIT/JEE, NEET, CLAT, CAT, MAT, CTET, MAH-CET LAW, MAH-CET MBA and 
+                many such courses which will brighten up your future. 
+                CEEDMY is one of India's emerging educational institutions which
+                will provide personalized guidance, study material, world-class faculty, and
+                 everything else needed to clear any government exam. We ensure that online 
+                learning becomes the new normal. If you too wish for a successful future then
+                do contact us.    
               </p>
               <a href="#" className="btn btn-light px-5 rounded-pill shadow-sm">
                 Learn More
@@ -35,8 +41,9 @@ const About = () => {
               <i className="fa fa-leaf fa-2x mb-3 text-primary"></i>
               <h2 className="font-weight-light">Our Goal and Mission</h2>
               <p className="font-italic text-muted mb-4">
-                We provide personalized guidance to the students up to achieving
-                her GOAL and it is unique.
+                Our Goal and Mission is to enhance the skills and knowledge of students and 
+                to provide personalised guidance to each n every student from world class
+                 faculty and thus help them achieve their goals.
               </p>
               <a href="#" className="btn btn-light px-5 rounded-pill shadow-sm">
                 Learn More
