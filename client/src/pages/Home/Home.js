@@ -5,9 +5,9 @@ import Card from "./Card";
 import { Image, Carousel, Container, Row, Col } from "react-bootstrap";
 
 import "./Home.css";
-import img1 from "../../images/img1.jpeg";
-import img2 from "../../images/img2.jpeg";
-import img3 from "../../images/img3.jpeg";
+import img1 from "../../images/sliderImg1.jpeg";
+import img2 from "../../images/sliderImg2.jpeg";
+import img3 from "../../images/sliderImg3.jpeg";
 
 import Img1 from "../../images/1.png";
 import Img2 from "../../images/2.png";
