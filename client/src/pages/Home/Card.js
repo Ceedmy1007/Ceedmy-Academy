@@ -51,9 +51,9 @@ const CARD = () => {
                   </Typography>
                 </CardContent>
               </CardActionArea>
-              <CardActions>
+              <CardActions className="d-flex align-items-center">
                 <Button className="btn btn-primary">
-                  <a href="#" className="text-white pr-1">Share</a>
+                  <a href="#" className="text-white mx-auto">Share</a>
                 </Button>
                 <Button className="btn btn-primary mr-0">
                   <a href="https://www.ceedmy.com/iit" className="text-white pr-1">Learn More</a>
