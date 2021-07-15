@@ -22,10 +22,10 @@ const Header = () => {
           >
             <Nav.Link href="/">Home</Nav.Link>
             <NavDropdown title="StudyMaterial" id="navbarScrollingDropdown">
-              <NavDropdown.Item href="/neetcontent">NEET</NavDropdown.Item>
-              <NavDropdown.Item href="/jeecontent">IIT-JEE</NavDropdown.Item>
+              <NavDropdown.Item href="/mpsccontent">NEET</NavDropdown.Item>
+              <NavDropdown.Item href="/upsccontent">IIT-JEE</NavDropdown.Item>
 
-              <NavDropdown.Item href="/upsccontent">UPSC</NavDropdown.Item>
+              <NavDropdown.Item href="/clatcontent">UPSC</NavDropdown.Item>
             </NavDropdown>
             <NavDropdown title="Scholarship" id="navbarScrollingDropdown">
               <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
