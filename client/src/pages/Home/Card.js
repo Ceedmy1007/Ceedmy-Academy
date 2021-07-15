@@ -53,10 +53,10 @@ const CARD = () => {
               </CardActionArea>
               <CardActions>
                 <Button className="btn btn-primary">
-                  <a href="#" className="text-white">Share</a>
+                  <a href="#" className="text-white pr-1">Share</a>
                 </Button>
-                <Button className="btn btn-primary">
-                  <a href="https://www.ceedmy.com/iit" className="text-white">Learn More</a>
+                <Button className="btn btn-primary mr-0">
+                  <a href="https://www.ceedmy.com/iit" className="text-white pr-1">Learn More</a>
                 </Button>
               </CardActions>
             </Card>
@@ -86,10 +86,10 @@ const CARD = () => {
               </CardActionArea>
               <CardActions>
                 <Button className="btn btn-primary">
-                  <a href="#" className="text-white">Share</a>
+                  <a href="#" className="text-white pr-1">Share</a>
                 </Button>
-                <Button className="btn btn-primary">
-                  <a href="https://www.ceedmy.com/neet" className="text-white">Learn More</a>
+                <Button className="btn btn-primary mr-0">
+                  <a href="https://www.ceedmy.com/neet" className="text-white pr-1">Learn More</a>
                 </Button>
               </CardActions>
             </Card>
@@ -119,10 +119,10 @@ const CARD = () => {
               </CardActionArea>
               <CardActions>
                 <Button className="btn btn-primary">
-                  <a href="#" className="text-white">Share</a>
+                  <a href="#" className="text-white pr-1">Share</a>
                 </Button>
-                <Button className="btn btn-primary">
-                  <a href="https://www.ceedmy.com/upsc" className="text-white">Learn More</a>
+                <Button className="btn btn-primary mr-0">
+                  <a href="https://www.ceedmy.com/upsc" className="text-white pr-1">Learn More</a>
                 </Button>
               </CardActions>
             </Card>
