@@ -52,10 +52,10 @@ const CARD = () => {
                 </CardContent>
               </CardActionArea>
               <CardActions>
-                <Button color="white" className="btn btn-primary">
+                <Button className="btn btn-primary text-white btn-sm">
                   Share
                 </Button>
-                <Button color="white" className="btn btn-primary float-left">
+                <Button className="btn btn-primary text-white btn-sm float-left">
                   <a href="https://www.ceedmy.com/iit">Learn More</a>
                 </Button>
               </CardActions>
@@ -85,10 +85,10 @@ const CARD = () => {
                 </CardContent>
               </CardActionArea>
               <CardActions>
-                <Button color="white" className="btn btn-primary">
+                <Button className="btn btn-primary text-white btn-sm">
                   Share
                 </Button>
-                <Button color="white" className="btn btn-primary float-left">
+                <Button color="white" className="btn btn-primary text-white btn-sm float-left">
                   <a href="https://www.ceedmy.com/neet">Learn More</a>
                 </Button>
               </CardActions>
@@ -118,10 +118,10 @@ const CARD = () => {
                 </CardContent>
               </CardActionArea>
               <CardActions>
-                <Button color="white" className="btn btn-primary">
+                <Button className="btn btn-primary text-white btn-sm float-left">
                   Share
                 </Button>
-                <Button color="white" className="btn btn-primary float-left">
+                <Button className="btn btn-primary text-white btn-sm float-left">
                   <a href="https://www.ceedmy.com/upsc">Learn More</a>
                 </Button>
               </CardActions>
