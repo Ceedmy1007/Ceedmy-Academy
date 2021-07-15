@@ -53,7 +53,7 @@ const CARD = () => {
                 </CardContent>
               </CardActionArea>
               <CardActions >
-                <Button className="btn btn-primary ml-3">
+                <Button className="btn btn-primary ml-4">
                   <a href="#" className="text-white mr-3">Share</a>
                 </Button>
                 <Button className="btn btn-primary mr-0">
@@ -87,7 +87,7 @@ const CARD = () => {
                 </CardContent>
               </CardActionArea>
               <CardActions>
-                <Button className="btn btn-primary ml-2">
+                <Button className="btn btn-primary ml-5">
                   <a href="#" className="text-white mr-3">Share</a>
                 </Button>
                 <Button className="btn btn-primary mr-1">
@@ -122,7 +122,7 @@ const CARD = () => {
               </CardActionArea>
               <CardActions>
                 <Button className="btn btn-primary">
-                  <a href="#" className="text-white mr-3">Share</a>
+                  <a href="#" className="text-white ml-6">Share</a>
                 </Button>
                 <Button className="btn btn-primary mr-2">
                   <a href="https://www.ceedmy.com/upsc" className="text-white mr-3">Learn More</a>
