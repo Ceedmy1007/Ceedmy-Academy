@@ -53,7 +53,7 @@ const CARD = () => {
                 </CardContent>
               </CardActionArea>
               <CardActions >
-                <Button className="btn btn-primary">
+                <Button className="btn btn-primary ml-3">
                   <a href="#" className="text-white mr-3">Share</a>
                 </Button>
                 <Button className="btn btn-primary mr-0">
@@ -87,7 +87,7 @@ const CARD = () => {
                 </CardContent>
               </CardActionArea>
               <CardActions>
-                <Button className="btn btn-primary">
+                <Button className="btn btn-primary ml-2">
                   <a href="#" className="text-white mr-3">Share</a>
                 </Button>
                 <Button className="btn btn-primary mr-1">
