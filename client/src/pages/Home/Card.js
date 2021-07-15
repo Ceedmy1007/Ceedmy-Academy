@@ -46,7 +46,7 @@ const CARD = () => {
                     variant="body2"
                     color="textSecondary"
                     component="p"
-                    className="text-center
+                    className="text-center"
                   >
                     IIT/JEE Courses 
                   </Typography>
@@ -73,14 +73,14 @@ const CARD = () => {
                   title="Contemplative Reptile"
                 />
                 <CardContent>
-                  <Typography gutterBottom variant="h5" component="h2" className="text-center>
+                  <Typography gutterBottom variant="h5" component="h2" className="text-center">
                     NEET
                   </Typography>
                   <Typography
                     variant="body2"
                     color="textSecondary"
                     component="p"
-                    className="text-center
+                    className="text-center"
                   >
                    NEET Course
                   </Typography>
@@ -107,14 +107,14 @@ const CARD = () => {
                   title="Contemplative Reptile"
                 />
                 <CardContent>
-                  <Typography gutterBottom variant="h5" component="h2" className="text-center>
+                  <Typography gutterBottom variant="h5" component="h2" className="text-center">
                     UPSC/IAS
                   </Typography>
                   <Typography
                     variant="body2"
                     color="textSecondary"
                     component="p"
-                    className="text-center
+                    className="text-center"
                   >
                    UPSC/IAS Course
                   </Typography>
