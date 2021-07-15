@@ -52,10 +52,10 @@ const CARD = () => {
                 </CardContent>
               </CardActionArea>
               <CardActions >
-                <Button className="btn btn-primary">
-                  <a href="#" className="text-white mr-2">Share</a>
+                <Button className="btn btn-primary fixed-right">
+                  <a href="#" className="text-white mr-3">Share</a>
                 </Button>
-                <Button className="btn btn-primary">
+                <Button className="btn btn-primary sticky-right">
                   <a href="https://www.ceedmy.com/iit" className="text-white mr-3">Learn More</a>
                 </Button>
               </CardActions>
@@ -86,10 +86,10 @@ const CARD = () => {
               </CardActionArea>
               <CardActions>
                 <Button className="btn btn-primary">
-                  <a href="#" className="text-white mr-4">Share</a>
+                  <a href="#" className="text-white mr-3">Share</a>
                 </Button>
                 <Button className="btn btn-primary">
-                  <a href="https://www.ceedmy.com/neet" className="text-white mr-4">Learn More</a>
+                  <a href="https://www.ceedmy.com/neet" className="text-white mr-3">Learn More</a>
                 </Button>
               </CardActions>
             </Card>
@@ -119,10 +119,10 @@ const CARD = () => {
               </CardActionArea>
               <CardActions>
                 <Button className="btn btn-primary">
-                  <a href="#" className="text-white pr-1">Share</a>
+                  <a href="#" className="text-white mr-3">Share</a>
                 </Button>
                 <Button className="btn btn-primary mr-0">
-                  <a href="https://www.ceedmy.com/upsc" className="text-white pr-1">Learn More</a>
+                  <a href="https://www.ceedmy.com/upsc" className="text-white mr-3">Learn More</a>
                 </Button>
               </CardActions>
             </Card>
