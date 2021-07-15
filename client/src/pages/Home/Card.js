@@ -52,11 +52,11 @@ const CARD = () => {
                 </CardContent>
               </CardActionArea>
               <CardActions>
-                <Button className="btn btn-primary text-white btn-sm">
-                  Share
+                <Button className="btn btn-primary">
+                  <a href="#" className="text-white">Share</a>
                 </Button>
-                <Button className="btn btn-primary text-white btn-sm float-left">
-                  <a href="https://www.ceedmy.com/iit">Learn More</a>
+                <Button className="btn btn-primary">
+                  <a href="https://www.ceedmy.com/iit" className="text-white">Learn More</a>
                 </Button>
               </CardActions>
             </Card>
@@ -85,11 +85,11 @@ const CARD = () => {
                 </CardContent>
               </CardActionArea>
               <CardActions>
-                <Button className="btn btn-primary text-white btn-sm">
-                  Share
+                <Button className="btn btn-primary">
+                  <a href="#" className="text-white">Share</a>
                 </Button>
-                <Button color="white" className="btn btn-primary text-white btn-sm float-left">
-                  <a href="https://www.ceedmy.com/neet">Learn More</a>
+                <Button className="btn btn-primary">
+                  <a href="https://www.ceedmy.com/neet" className="text-white">Learn More</a>
                 </Button>
               </CardActions>
             </Card>
@@ -118,11 +118,11 @@ const CARD = () => {
                 </CardContent>
               </CardActionArea>
               <CardActions>
-                <Button className="btn btn-primary text-white btn-sm float-left">
-                  Share
+                <Button className="btn btn-primary">
+                  <a href="#" className="text-white">Share</a>
                 </Button>
-                <Button className="btn btn-primary text-white btn-sm float-left">
-                  <a href="https://www.ceedmy.com/upsc">Learn More</a>
+                <Button className="btn btn-primary">
+                  <a href="https://www.ceedmy.com/upsc" className="text-white">Learn More</a>
                 </Button>
               </CardActions>
             </Card>
