@@ -23,9 +23,9 @@ const useStyles = makeStyles((theme) => ({
 const IIT = () => {
   const classes = useStyles();
   return (
-    <div>
+    <div id="iitjee">
       
-      <h1 className="text-center mt-2">NEET COURSE</h1>
+      <h1 className="text-center mt-2">IIT COURSE</h1>
       <div className="d-flex justify-content-center mt-2">
         <form className={classes.root} noValidate autoComplete="off">
           <TextField id="outlined-basic" label="Filter" variant="outlined" />
