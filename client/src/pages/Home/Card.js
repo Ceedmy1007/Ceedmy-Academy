@@ -39,13 +39,14 @@ const CARD = () => {
                   title="Contemplative Reptile"
                 />
                 <CardContent>
-                  <Typography gutterBottom variant="h5" component="h2">
+                  <Typography gutterBottom variant="h5" component="h2" className="text-center">
                    IIT/JEE
                   </Typography>
                   <Typography
                     variant="body2"
                     color="textSecondary"
                     component="p"
+                    className="text-center
                   >
                     IIT/JEE Courses 
                   </Typography>
@@ -55,7 +56,7 @@ const CARD = () => {
                 <Button className="btn btn-primary">
                   <a href="#" className="text-white mr-3">Share</a>
                 </Button>
-                <Button className="btn btn-primary ml-7">
+                <Button className="btn btn-primary ml-6">
                   <a href="https://www.ceedmy.com/iit" className="text-white mr-3">Learn More</a>
                 </Button>
               </CardActions>
@@ -72,13 +73,14 @@ const CARD = () => {
                   title="Contemplative Reptile"
                 />
                 <CardContent>
-                  <Typography gutterBottom variant="h5" component="h2">
+                  <Typography gutterBottom variant="h5" component="h2" className="text-center>
                     NEET
                   </Typography>
                   <Typography
                     variant="body2"
                     color="textSecondary"
                     component="p"
+                    className="text-center
                   >
                    NEET Course
                   </Typography>
@@ -88,7 +90,7 @@ const CARD = () => {
                 <Button className="btn btn-primary">
                   <a href="#" className="text-white mr-3">Share</a>
                 </Button>
-                <Button className="btn btn-primary ml-8">
+                <Button className="btn btn-primary ml-6">
                   <a href="https://www.ceedmy.com/neet" className="text-white mr-3">Learn More</a>
                 </Button>
               </CardActions>
@@ -105,13 +107,14 @@ const CARD = () => {
                   title="Contemplative Reptile"
                 />
                 <CardContent>
-                  <Typography gutterBottom variant="h5" component="h2">
+                  <Typography gutterBottom variant="h5" component="h2" className="text-center>
                     UPSC/IAS
                   </Typography>
                   <Typography
                     variant="body2"
                     color="textSecondary"
                     component="p"
+                    className="text-center
                   >
                    UPSC/IAS Course
                   </Typography>
@@ -121,7 +124,7 @@ const CARD = () => {
                 <Button className="btn btn-primary">
                   <a href="#" className="text-white mr-3">Share</a>
                 </Button>
-                <Button className="btn btn-primary ml-10">
+                <Button className="btn btn-primary ml-6">
                   <a href="https://www.ceedmy.com/upsc" className="text-white mr-3">Learn More</a>
                 </Button>
               </CardActions>
