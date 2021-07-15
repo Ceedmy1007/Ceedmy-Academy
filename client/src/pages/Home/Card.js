@@ -56,7 +56,7 @@ const CARD = () => {
                 <Button className="btn btn-primary">
                   <a href="#" className="text-white mr-3">Share</a>
                 </Button>
-                <Button className="btn btn-primary ml-6">
+                <Button className="btn btn-primary mr-0">
                   <a href="https://www.ceedmy.com/iit" className="text-white mr-3">Learn More</a>
                 </Button>
               </CardActions>
@@ -90,7 +90,7 @@ const CARD = () => {
                 <Button className="btn btn-primary">
                   <a href="#" className="text-white mr-3">Share</a>
                 </Button>
-                <Button className="btn btn-primary ml-6">
+                <Button className="btn btn-primary mr-1">
                   <a href="https://www.ceedmy.com/neet" className="text-white mr-3">Learn More</a>
                 </Button>
               </CardActions>
@@ -124,7 +124,7 @@ const CARD = () => {
                 <Button className="btn btn-primary">
                   <a href="#" className="text-white mr-3">Share</a>
                 </Button>
-                <Button className="btn btn-primary ml-6">
+                <Button className="btn btn-primary mr-2">
                   <a href="https://www.ceedmy.com/upsc" className="text-white mr-3">Learn More</a>
                 </Button>
               </CardActions>
