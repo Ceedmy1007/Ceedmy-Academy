@@ -53,10 +53,10 @@ const CARD = () => {
               </CardActionArea>
               <CardActions >
                 <Button className="btn btn-primary">
-                  <a href="#" className="text-white ml-auto">Share</a>
+                  <a href="#" className="text-white mr-2">Share</a>
                 </Button>
                 <Button className="btn btn-primary">
-                  <a href="https://www.ceedmy.com/iit" className="text-white mx-auto">Learn More</a>
+                  <a href="https://www.ceedmy.com/iit" className="text-white mr-3">Learn More</a>
                 </Button>
               </CardActions>
             </Card>
@@ -86,10 +86,10 @@ const CARD = () => {
               </CardActionArea>
               <CardActions>
                 <Button className="btn btn-primary">
-                  <a href="#" className="text-white mr-auto">Share</a>
+                  <a href="#" className="text-white mr-4">Share</a>
                 </Button>
-                <Button className="btn btn-primary mr-0">
-                  <a href="https://www.ceedmy.com/neet" className="text-white pr-1">Learn More</a>
+                <Button className="btn btn-primary">
+                  <a href="https://www.ceedmy.com/neet" className="text-white mr-4">Learn More</a>
                 </Button>
               </CardActions>
             </Card>
