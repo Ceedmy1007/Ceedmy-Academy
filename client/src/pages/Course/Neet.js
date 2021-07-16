@@ -1,4 +1,6 @@
 import React from "react";
+import {BrowserRouter, Route, Switch, Link} from "react-router-dom"
+import testcontent from "./testcontent";
 import amplecontent from "./amplecontent.js"
 import binarycontent from "./binarycontent.js"
 import repeaterscontent from "./repeaterscontent.js"
@@ -215,6 +217,12 @@ const Neet = () => {
                   Share
                 </Button>
                 <Button size="small" color="primary">
+                  <BrowserRouter>
+                      <Switch>
+                          <Route exact path="/textcontent" component={textcontent}></Route>
+                      </Switch>
+                  </BrowserRouter>
+                  <Link to="/textcontent">LEARN MORE</Link>
                 </Button>
               </CardActions>
             </Card>
