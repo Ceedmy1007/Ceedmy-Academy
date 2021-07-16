@@ -31,8 +31,10 @@ const TestContainerCourses = () => {
           </h2>
         </nav>
         <br />
-              <p style={{marginRight: "15px", marginLeft: "15px", fontFamily: "sans-serif",}}>This Course is designed for those aspirants who have studied the topics themselves and want to check their preparation level and compete with Top Rankers on an All India basis for Competitive Exams. The students prepared for the test as scheduled provided to them at the time of admission. Students are provided with a detailed analysis of the test.</p>
-     </div>
+        <ul>
+              <li style={{marginRight: "15px", marginLeft: "15px", fontFamily: "sans-serif", listStyle: "none",}}>This Course is designed for those aspirants who have studied the topics themselves and want to check their preparation level and compete with Top Rankers on an All India basis for Competitive Exams. The students prepared for the test as scheduled provided to them at the time of admission. Students are provided with a detailed analysis of the test.</li>
+        </ul>                 
+      </div>
    </div>
  </>
   );
