@@ -47,14 +47,14 @@ const Neet = () => {
                   title="Contemplative Reptile"
                 />
                 <CardContent>
-                  <Typography gutterBottom variant="h5" style={{textAlign: "center",}} component="h2">
+                  <Typography gutterBottom variant="h5" className="text-center" component="h2">
                     AMPLE Program
                   </Typography>
                   <Typography
                     variant="body2"
                     color="textSecondary"
                     component="p"
-                    style = {{textAlign: "center",}}
+                    className="text-center"
                   >
                     NEET + AIIMS + JIPMER + OLYMPIADS
                   </Typography>
