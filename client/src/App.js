@@ -29,7 +29,7 @@ import amplecontent from "./pages/Course/amplecontent";
 import binarycontent from "./pages/Course/binarycontent";
 import repeaterscontent from "./pages/Course/repeaterscontent";
 import crashcontent from "./pages/Course/crashcontent";
-import testcontent from "./pages/Course/testcontent";
+import onlinecontent from "./pages/Course/onlinecontent";
 import distancecontent from "./pages/Course/distancecontent";
 
 // import Reports from "./Components/dashboard/Reports";
@@ -88,7 +88,7 @@ const DefaultRoutes = () => {
       <Route exact path="/repeaterscontent" component={repeaterscontent} />
       <Route exact path="/crashcontent" component={crashcontent} />
       <Route exact path="/distancecontent" component={distancecontent} />
-        {/** <Route exact path="/textcontent" component={textcontent} /> **/}
+      <Route exact path="/onlinecontent" component={onlinecontent} />
     
     </Switch>
      <Footer />
