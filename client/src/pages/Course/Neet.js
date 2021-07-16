@@ -1,16 +1,15 @@
 import React from "react";
-import {BrowserRouter, Route, Switch, Link} from "react-router-dom"
 import amplecontent from "./amplecontent.js"
 import binarycontent from "./binarycontent.js"
 import repeaterscontent from "./repeaterscontent.js"
 import crashcontent from "./crashcontent.js"
-import testcontent from "./testcontent.js"
+import onlinecontent from "./onlinecontent.js"
 import distancecontent from "./distancecontent.js"
 import BinaryContainerCourses from "./BinaryContainerCourses.js";
 import AmpleContainerCourses from "./AmpleContainerCourses.js";
 import RepeatersContainerCourses from "./RepeatersContainerCourses.js";
 import CrashContainerCourses from "./CrashContainerCourses.js";
-import TestContainerCourses from "./TestContainerCourses.js";
+import OnlineContainerCourses from "./OnlineContainerCourses.js";
 import DistanceContainerCourses from "./DistanceContainerCourses.js";
 import { makeStyles } from "@material-ui/core/styles";
 import TextField from "@material-ui/core/TextField";
@@ -216,12 +215,7 @@ const Neet = () => {
                   Share
                 </Button>
                 <Button size="small" color="primary">
-                  <BrowserRouter>
-                      <Switch>
-                          <Route exact path="/textcontent" component={textcontent}></Route>
-                      </Switch>
-                  </BrowserRouter>
-                  <Link to="/textcontent">LEARN MORE</Link>
+                  <a href="/onlinecontent">LEARN MORE</a>
                 </Button>
               </CardActions>
             </Card>
