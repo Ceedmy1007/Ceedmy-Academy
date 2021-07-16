@@ -1,6 +1,6 @@
 import React from "react";
 
-const AmpleContainercourses = () => {
+const AmpleContainerCourses = () => {
   return (
       <>
      
