@@ -1,5 +1,5 @@
 import React from "react";
-
+import amplecontent from "/amplecontent.js"
 import { makeStyles } from "@material-ui/core/styles";
 import TextField from "@material-ui/core/TextField";
 import Card from "@material-ui/core/Card";
@@ -47,13 +47,14 @@ const Neet = () => {
                   title="Contemplative Reptile"
                 />
                 <CardContent>
-                  <Typography gutterBottom variant="h5" component="h2">
+                  <Typography gutterBottom variant="h5" style={{textAlign: "center",}} component="h2">
                     AMPLE Program
                   </Typography>
                   <Typography
                     variant="body2"
                     color="textSecondary"
                     component="p"
+                    style = {{textAlign: "center",}}
                   >
                     NEET + AIIMS + JIPMER + OLYMPIADS
                   </Typography>
