@@ -1,8 +1,16 @@
 import React from "react";
 import amplecontent from "./amplecontent.js"
 import binarycontent from "./binarycontent.js"
+import repeaterscontent from "./repeaterscontent.js"
+import crashcontent from "./crashcontent.js"
+import testcontent from "./testcontent.js"
+import distancecontent from "./distancecontent.js"
 import BinaryContainerCourses from "./BinaryContainerCourses.js";
 import AmpleContainerCourses from "./AmpleContainerCourses.js";
+import RepeatersContainerCourses from "./RepeatersContainerCourses.js";
+import CrashContainerCourses from "./CrashContainerCourses.js";
+import TestContainerCourses from "./TestContainerCourses.js";
+import DistanceContainerCourses from "./DistanceContainerCourses.js";
 import { makeStyles } from "@material-ui/core/styles";
 import TextField from "@material-ui/core/TextField";
 import Card from "@material-ui/core/Card";
@@ -51,7 +59,7 @@ const Neet = () => {
                 />
                 <CardContent>
                   <Typography gutterBottom variant="h5" className="text-center" component="h2">
-                    AMPLE Program
+                    Ample Program
                   </Typography>
                   <Typography
                     variant="body2"
@@ -85,7 +93,7 @@ const Neet = () => {
                 />
                 <CardContent>
                   <Typography gutterBottom variant="h5" className="text-center" component="h2">
-                    BINARY Program
+                    Binary Program
                   </Typography>
                   <Typography
                     variant="body2"
@@ -118,17 +126,16 @@ const Neet = () => {
                   title="Contemplative Reptile"
                 />
                 <CardContent>
-                  <Typography gutterBottom variant="h5" component="h2">
-                    Lizard
+                  <Typography gutterBottom className="text-center" variant="h5" component="h2">
+                    Repeaters Program
                   </Typography>
                   <Typography
                     variant="body2"
                     color="textSecondary"
                     component="p"
+                    className="text-center"
                   >
-                    Lizards are a widespread group of squamate reptiles, with
-                    over 6,000 species, ranging across all continents except
-                    Antarctica
+                      NEET + AIIMS + JIPMER
                   </Typography>
                 </CardContent>
               </CardActionArea>
@@ -137,7 +144,7 @@ const Neet = () => {
                   Share
                 </Button>
                 <Button size="small" color="primary">
-                  Learn More
+                  <a href="/repeaterscontent">Learn More</a>
                 </Button>
               </CardActions>
             </Card>
@@ -156,17 +163,16 @@ const Neet = () => {
                   title="Contemplative Reptile"
                 />
                 <CardContent>
-                  <Typography gutterBottom variant="h5" component="h2">
-                    Lizard
+                  <Typography gutterBottom className="text-center" variant="h5" component="h2">
+                    Crash Courses
                   </Typography>
                   <Typography
                     variant="body2"
                     color="textSecondary"
                     component="p"
+                    className="text-center"
                   >
-                    Lizards are a widespread group of squamate reptiles, with
-                    over 6,000 species, ranging across all continents except
-                    Antarctica
+                      NEET + AIIMS + JIPMER
                   </Typography>
                 </CardContent>
               </CardActionArea>
@@ -175,7 +181,7 @@ const Neet = () => {
                   Share
                 </Button>
                 <Button size="small" color="primary">
-                  Learn More
+                  <a href="/crashcontent">Learn More</a>
                 </Button>
               </CardActions>
             </Card>
@@ -191,17 +197,16 @@ const Neet = () => {
                   title="Contemplative Reptile"
                 />
                 <CardContent>
-                  <Typography gutterBottom variant="h5" component="h2">
-                    Lizard
+                  <Typography gutterBottom className="text-center" variant="h5" component="h2">
+                    All India Test Series
                   </Typography>
                   <Typography
                     variant="body2"
                     color="textSecondary"
                     component="p"
+                    className="text-center"
                   >
-                    Lizards are a widespread group of squamate reptiles, with
-                    over 6,000 species, ranging across all continents except
-                    Antarctica
+                      ONLINE/OFFLINE
                   </Typography>
                 </CardContent>
               </CardActionArea>
@@ -210,7 +215,7 @@ const Neet = () => {
                   Share
                 </Button>
                 <Button size="small" color="primary">
-                  Learn More
+                  <a href="/testcontent">Learn More</a>
                 </Button>
               </CardActions>
             </Card>
@@ -226,17 +231,16 @@ const Neet = () => {
                   title="Contemplative Reptile"
                 />
                 <CardContent>
-                  <Typography gutterBottom variant="h5" component="h2">
-                    Lizard
+                  <Typography gutterBottom className="text-center" variant="h5" component="h2">
+                    Distance Learning
                   </Typography>
                   <Typography
                     variant="body2"
                     color="textSecondary"
                     component="p"
+                    className="text-center"
                   >
-                    Lizards are a widespread group of squamate reptiles, with
-                    over 6,000 species, ranging across all continents except
-                    Antarctica
+                      NEET
                   </Typography>
                 </CardContent>
               </CardActionArea>
@@ -245,7 +249,7 @@ const Neet = () => {
                   Share
                 </Button>
                 <Button size="small" color="primary">
-                  Learn More
+                  <a href="/distancecontent">Learn More</a>
                 </Button>
               </CardActions>
             </Card>
