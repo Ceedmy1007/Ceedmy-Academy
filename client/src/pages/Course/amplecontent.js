@@ -1,5 +1,5 @@
 import React from 'react';
-import AmpleContainerCourses from "./AmpleContainerCourses";
+import AmpleContainerCourses from "./AmpleContainerCourses.js";
 
 const amplecontent=()=> {
   return (
