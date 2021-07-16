@@ -40,16 +40,7 @@ const AmpleContainerCourses = () => {
               <li style={{marginRight: "15px", marginLeft: "15px", fontFamily: "sans-serif",}}>All India Test Series (AITS) is a series of full-length tests conducted after course completion to give the student immense practice for the NEET/AIIMS/JIPMER and also to know their national-level performance.</li>
               <li style={{marginRight: "15px", marginLeft: "15px", fontFamily: "sans-serif",}}>Regular feedback is taken from the students to identify actions to be taken to improve & enhance their performance.</li>
               <li style={{marginRight: "15px", marginLeft: "15px", fontFamily: "sans-serif",}}>A detailed analysis report is given after every test.</li>
-        </ul>
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />    
-        <p></p>        
+        </ul>    
      </div>
    </div>
  </>
