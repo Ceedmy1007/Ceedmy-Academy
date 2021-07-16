@@ -31,7 +31,7 @@ const RepeatersContainerCourses = () => {
           </h2>
         </nav>
         <br />
-        <p style={{marginRight: "15px", marginLeft: "15px", fontFamily: "sans-serif",}}>●	In this program, we are providing knowledge that helps students in weak areas of his/her previous year’s preparation. This program will cover the entire syllabus of NEET/AIIMS/JIPMER.</p>      
+        <p style={{marginRight: "15px", marginLeft: "15px", fontFamily: "sans-serif",}}>In this program, we are providing knowledge that helps students in weak areas of his/her previous year’s preparation. This program will cover the entire syllabus of NEET/AIIMS/JIPMER.</p>      
      </div>
    </div>
  </>
