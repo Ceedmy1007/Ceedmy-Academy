@@ -48,7 +48,8 @@ const AmpleContainerCourses = () => {
         <br />
         <br />
         <br />
-        <br />        
+        <br />    
+        <p></p>        
      </div>
    </div>
  </>
