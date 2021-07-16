@@ -50,4 +50,4 @@ const AmpleContainerCourses = () => {
  </>
   );
 };
-export default Containercourses;
+export default AmpleContainerCourses;
