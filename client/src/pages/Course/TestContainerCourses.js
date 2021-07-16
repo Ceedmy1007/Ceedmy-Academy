@@ -27,7 +27,7 @@ const TestContainerCourses = () => {
               fontSize: "medium",
             }}
           >
-            ALL INDIA TEST SERIES (ONLINE/OFFLINE)
+            All India Test Series (ONLINE/OFFLINE)
           </h2>
         </nav>
         <br />
