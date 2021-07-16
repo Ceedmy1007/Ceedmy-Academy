@@ -4,7 +4,7 @@ const AmpleContainerCourses = () => {
   return (
       <>
      
-    <div className="container mt-2 mx-5"
+    <div className="container mt-5 mx-5"
     >
       <div className="flexClass">
         <nav aria-label="breadcrumb">
