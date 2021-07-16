@@ -19,7 +19,7 @@ const AmpleContainerCourses = () => {
           >
             NEET Courses
           </h2>
-          <br>
+          </br>
           <h2
             style={{
               fontFamily: "verdana",     
@@ -30,7 +30,7 @@ const AmpleContainerCourses = () => {
             AMPLE Program (NEET + AIIMS + JIPMER + OLYMPIADS)
           </h2>
         </nav>
-        <br><br>
+        </br>
         <ul>
               <li style={{marginRight: "15px", marginLeft: "15px"}}>This course is designed for students to make them fundamentally strong in physics, chemistry and biology with analytical skills to solve problems in competitive exams.</li>
               <li style={{marginRight: "15px", marginLeft: "15px"}}>This will cover the whole syllabus in depth.</li>
