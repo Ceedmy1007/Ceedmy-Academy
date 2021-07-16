@@ -87,7 +87,8 @@ const DefaultRoutes = () => {
       <Route exact path="/binarycontent" component={binarycontent} />
       <Route exact path="/repeaterscontent" component={repeaterscontent} />
       <Route exact path="/crashcontent" component={crashcontent} />
-      <Route exact path="/distancecontent" component={distancecontent} />  
+      <Route exact path="/distancecontent" component={distancecontent} />
+      <Route exact path="/textcontent" component={textcontent} />  
     
     </Switch>
      <Footer />
