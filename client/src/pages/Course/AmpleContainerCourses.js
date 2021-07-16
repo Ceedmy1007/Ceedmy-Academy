@@ -4,11 +4,7 @@ const AmpleContainerCourses = () => {
   return (
       <>
      
-    <div className="container mt-2"
-         style={{
-              marginRight: "15%",
-              marginLeft: "15%",
-         }}
+    <div className="container mt-2 mx-5"
     >
       <div className="flexClass">
         <nav aria-label="breadcrumb">
@@ -18,7 +14,7 @@ const AmpleContainerCourses = () => {
               fontFamily: "helvetica",
               textAlign: "center",
               fontWeight: "bold",
-              fontSize: "30px",
+              fontSize: "large",
             }}
           >
             NEET Courses
@@ -26,9 +22,9 @@ const AmpleContainerCourses = () => {
           <br>
           <h3
             style={{
-              font-family: "verdana",     
+              fontFamily: "verdana",     
               textAlign: "center",
-              fontSize: "23px",
+              fontSize: "medium",
             }}
           >
             AMPLE Program (NEET + AIIMS + JIPMER + OLYMPIADS)
