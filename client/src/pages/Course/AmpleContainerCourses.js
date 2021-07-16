@@ -20,7 +20,7 @@ const AmpleContainerCourses = () => {
             NEET Courses
           </h2>
           <br>
-          <h3
+          <h2
             style={{
               fontFamily: "verdana",     
               textAlign: "center",
