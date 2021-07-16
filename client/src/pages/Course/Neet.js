@@ -1,5 +1,7 @@
 import React from "react";
 import amplecontent from "./amplecontent.js"
+import binarycontent from "./binarycontent.js"
+import BinaryContainerCourses from "./BinaryContainerCourses.js";
 import AmpleContainerCourses from "./AmpleContainerCourses.js";
 import { makeStyles } from "@material-ui/core/styles";
 import TextField from "@material-ui/core/TextField";
@@ -65,8 +67,8 @@ const Neet = () => {
                 <Button size="small" color="primary">
                   Share
                 </Button>
-                <Button size="small" color="primary">
-                  <a href="/amplecontent">Learn More</a>
+                <Button size="small">
+                  <a href="/amplecontent" color="primary">Learn More</a>
                 </Button>
               </CardActions>
             </Card>
@@ -82,17 +84,16 @@ const Neet = () => {
                   title="Contemplative Reptile"
                 />
                 <CardContent>
-                  <Typography gutterBottom variant="h5" component="h2">
-                    Lizard
+                  <Typography gutterBottom variant="h5" className="text-center" component="h2">
+                    BINARY Program
                   </Typography>
                   <Typography
                     variant="body2"
                     color="textSecondary"
                     component="p"
+                    className="text-center"
                   >
-                    Lizards are a widespread group of squamate reptiles, with
-                    over 6,000 species, ranging across all continents except
-                    Antarctica
+                    NEET + AIIMS + JIPMER
                   </Typography>
                 </CardContent>
               </CardActionArea>
@@ -100,8 +101,8 @@ const Neet = () => {
                 <Button size="small" color="primary">
                   Share
                 </Button>
-                <Button size="small" color="primary">
-                  Learn More
+                <Button size="small">
+                  <a href="/binarycontent" color="primary">Learn More</a>
                 </Button>
               </CardActions>
             </Card>
