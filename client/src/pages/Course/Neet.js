@@ -1,4 +1,5 @@
 import React from "react";
+import {NavLink} from "react-router-dom";
 import amplecontent from "./amplecontent.js"
 import binarycontent from "./binarycontent.js"
 import repeaterscontent from "./repeaterscontent.js"
@@ -215,7 +216,7 @@ const Neet = () => {
                   Share
                 </Button>
                 <Button size="small" color="primary">
-                  <a href="/testcontent">Learn More</a>
+                  <NavLink to="/textcontent">Learn More</NavLink>
                 </Button>
               </CardActions>
             </Card>
