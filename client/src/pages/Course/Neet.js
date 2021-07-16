@@ -64,7 +64,7 @@ const Neet = () => {
                   Share
                 </Button>
                 <Button size="small" color="primary">
-                  Learn More
+                  <a href="/amplecontent">Learn More</a>
                 </Button>
               </CardActions>
             </Card>
