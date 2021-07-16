@@ -1,6 +1,6 @@
 import React from "react";
 
-const TestContainerCourses = () => {
+const OnlineContainerCourses = () => {
   return (
       <>
      
@@ -39,4 +39,4 @@ const TestContainerCourses = () => {
  </>
   );
 };
-export default TestContainerCourses;
+export default OnlineContainerCourses;
