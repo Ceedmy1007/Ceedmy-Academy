@@ -25,6 +25,7 @@ import Mpsccontent from "./pages/Content/MPSC/mpsccontent";
 import Upsccontent from "./pages/Content/UPSC/upsccontent";
 import Clatcontent from "./pages/Content/CLAT/clatcontent";
 import Quiz from "./pages/Content/Quizes/Quize";
+import Amplecontent from "./pages/Course/amplecontent";
 
 // import Reports from "./Components/dashboard/Reports";
 // import Support from "./Components/dashboard/Support";
@@ -77,6 +78,7 @@ const DefaultRoutes = () => {
       <Route exact path="/upsccontent" component={Upsccontent} />
       <Route exact path="/clatcontent" component={Clatcontent} />
       <Route exact path="/quiz" component={Quiz} />
+      <Route exact path="/amplecontent" component={Amplecontent}>  
     
     </Switch>
      <Footer />
