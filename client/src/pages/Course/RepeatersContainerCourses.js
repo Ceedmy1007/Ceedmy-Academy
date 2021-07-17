@@ -14,7 +14,7 @@ const RepeatersContainerCourses = () => {
               fontFamily: "helvetica",
               textAlign: "center",
               fontWeight: "bold",
-              fontSize: "large",
+              fontSize: "30px",
             }}
           >
             NEET Courses
@@ -24,7 +24,7 @@ const RepeatersContainerCourses = () => {
             style={{
               fontFamily: "verdana",     
               textAlign: "center",
-              fontSize: "medium",
+              fontSize: "22px",
             }}
           >
             Repeaters Program (NEET + AIIMS + JIPMER)
@@ -32,10 +32,10 @@ const RepeatersContainerCourses = () => {
         </nav>
         <br />
         <ul>
-              <li style={{marginRight: "15px", marginLeft: "15px", fontFamily: "sans-serif", listStyle: "none",}}>In this program, we are providing knowledge that helps students in weak areas of his/her previous year’s preparation. This program will cover the entire syllabus of NEET/AIIMS/JIPMER.</li>
+              <li style={{fontSize: "20px", marginRight: "15px", marginLeft: "15px", fontFamily: "sans-serif", listStyle: "none",}}>In this program, we are providing knowledge that helps students in weak areas of his/her previous year’s preparation. This program will cover the entire syllabus of NEET/AIIMS/JIPMER.</li>
               <br />
               <hr style={{borderTop: "1px solid"}} />
-              <li style={{marginRight: "15px", marginLeft: "15px", fontFamily: "sans-serif", listStyle: "none"}}>For more details :- kindly contact on mobile number <u style={{color: "black"}}>7900007174</u></li>  
+              <li style={{fontSize: "20px", marginRight: "15px", marginLeft: "15px", fontFamily: "sans-serif", listStyle: "none"}}>For more details :- kindly contact on mobile number <u style={{color: "black"}}>7900007174</u></li>  
         </ul>          
      </div>
    </div>
