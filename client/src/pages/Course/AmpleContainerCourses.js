@@ -24,7 +24,7 @@ const AmpleContainerCourses = () => {
             style={{
               fontFamily: "verdana",     
               textAlign: "center",
-              fontSize: "medium",
+              fontSize: "23px",
             }}
           >
             AMPLE Program (NEET + AIIMS + JIPMER + OLYMPIADS)
