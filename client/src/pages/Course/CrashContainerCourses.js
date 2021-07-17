@@ -14,7 +14,7 @@ const CrashContainerCourses = () => {
               fontFamily: "helvetica",
               textAlign: "center",
               fontWeight: "bold",
-              fontSize: "25px",
+              fontSize: "30px",
             }}
           >
             NEET Courses
@@ -24,7 +24,7 @@ const CrashContainerCourses = () => {
             style={{
               fontFamily: "verdana",     
               textAlign: "center",
-              fontSize: "medium",
+              fontSize: "22px",
             }}
           >
             Crash Courses
