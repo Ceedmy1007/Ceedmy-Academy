@@ -14,7 +14,7 @@ const AmpleContainerCourses = () => {
               fontFamily: "helvetica",
               textAlign: "center",
               fontWeight: "bold",
-              fontSize: "large",
+              fontSize: "25",
             }}
           >
             NEET Courses
