@@ -83,7 +83,7 @@ const Neet = () => {
                   Share
                 </Button>
                 <Button size="small">
-                  <a href="/amplecontent" className="ml-3" color="primary">Learn More</a>
+                  <a href="/amplecontent" style={{marginLeft: "20px"}} color="primary">Learn More</a>
                 </Button>
               </CardActions>
             </Card>
@@ -117,7 +117,7 @@ const Neet = () => {
                   Share
                 </Button>
                 <Button size="small">
-                  <a href="/binarycontent" color="primary" className="ml-3">Learn More</a>
+                  <a href="/binarycontent" color="primary" style={{marginLeft: "20px"}}>Learn More</a>
                 </Button>
               </CardActions>
             </Card>
@@ -151,7 +151,7 @@ const Neet = () => {
                   Share
                 </Button>
                 <Button size="small" color="primary">
-                  <a href="/repeaterscontent" className="ml-3">Learn More</a>
+                  <a href="/repeaterscontent" style={{marginLeft: "20px"}}>Learn More</a>
                 </Button>
               </CardActions>
             </Card>
@@ -188,7 +188,7 @@ const Neet = () => {
                   Share
                 </Button>
                 <Button size="small" color="primary">
-                  <a href="/crashcontent" className="ml-3">Learn More</a>
+                  <a href="/crashcontent" style={{marginLeft: "20px"}}>Learn More</a>
                 </Button>
               </CardActions>
             </Card>
@@ -222,7 +222,7 @@ const Neet = () => {
                   Share
                 </Button>
                 <Button size="small" color="primary">
-                  <a href="/onlinecontent" className="ml-3">LEARN MORE</a>
+                  <a href="/onlinecontent" style={{marginLeft: "20px"}}>LEARN MORE</a>
                 </Button>
               </CardActions>
             </Card>
@@ -256,7 +256,7 @@ const Neet = () => {
                   Share
                 </Button>
                 <Button size="small" color="primary">
-                  <a href="/distancecontent" className="ml-3">Learn More</a>
+                  <a href="/distancecontent" style={{marginLeft: "20px"}}>Learn More</a>
                 </Button>
               </CardActions>
             </Card>
