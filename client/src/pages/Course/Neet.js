@@ -59,10 +59,10 @@ const Neet = () => {
               <CardActionArea>
                 <CardMedia
                   component="img"
-                  alt="Contemplative Reptile"
+                  alt="Ample Program"
                   height="140"
                   image={ample}
-                  title="Contemplative Reptile"
+                  title="Ample Program"
                 />
                 <CardContent>
                   <Typography gutterBottom variant="h5" className="text-center" component="h2">
@@ -93,10 +93,10 @@ const Neet = () => {
               <CardActionArea>
                 <CardMedia
                   component="img"
-                  alt="Contemplative Reptile"
+                  alt="Binary Program"
                   height="140"
                   image={binary}
-                  title="Contemplative Reptile"
+                  title="Binary Program"
                 />
                 <CardContent>
                   <Typography gutterBottom variant="h5" className="text-center" component="h2">
@@ -127,10 +127,10 @@ const Neet = () => {
               <CardActionArea>
                 <CardMedia
                   component="img"
-                  alt="Contemplative Reptile"
+                  alt="Repeaters Program"
                   height="140"
                   image={repeaters}
-                  title="Contemplative Reptile"
+                  title="Repeaters Program"
                 />
                 <CardContent>
                   <Typography gutterBottom className="text-center" variant="h5" component="h2">
@@ -164,10 +164,10 @@ const Neet = () => {
               <CardActionArea>
                 <CardMedia
                   component="img"
-                  alt="Contemplative Reptile"
+                  alt="Crash Courses"
                   height="140"
                   image={crash}
-                  title="Contemplative Reptile"
+                  title="Crash Courses"
                 />
                 <CardContent>
                   <Typography gutterBottom className="text-center" variant="h5" component="h2">
@@ -198,10 +198,10 @@ const Neet = () => {
               <CardActionArea>
                 <CardMedia
                   component="img"
-                  alt="Contemplative Reptile"
+                  alt="Test Series"
                   height="140"
                   image={online}
-                  title="Contemplative Reptile"
+                  title="Test Series"
                 />
                 <CardContent>
                   <Typography gutterBottom className="text-center" variant="h5" component="h2">
@@ -232,10 +232,10 @@ const Neet = () => {
               <CardActionArea>
                 <CardMedia
                   component="img"
-                  alt="Contemplative Reptile"
+                  alt="Distance Learning Courses"
                   height="140"
                   image={distance}
-                  title="Contemplative Reptile"
+                  title="Distance Learning Courses"
                 />
                 <CardContent>
                   <Typography gutterBottom className="text-center" variant="h5" component="h2">
