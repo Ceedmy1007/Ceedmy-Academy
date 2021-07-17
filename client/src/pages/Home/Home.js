@@ -9,9 +9,9 @@ import img1 from "../../images/sliderImg1.jpeg";
 import img2 from "../../images/sliderImg2.jpeg";
 import img3 from "../../images/sliderImg3.jpeg";
 
-import IITJEE1 from "../../images/IITJEE1.jpeg";
-import UPSC1 from "../../images/UPSC1.jpeg";
-import NEET1 from "../../images/NEET1.jpeg";
+import IITJEE1 from "../../images/IITJEE1.jpg";
+import UPSC1 from "../../images/UPSC1.jpg";
+import NEET1 from "../../images/NEET1.jpg";
 
 const Home = () => {
   return (
