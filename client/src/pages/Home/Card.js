@@ -37,7 +37,7 @@ const CARD = () => {
                 <CardMedia
                   component="img"
                   alt="IIT JEE 2022"
-                  height="400"
+                  height="300"
                   image={iitjee2022}
                   title="IIT JEE 2022"
                 />
@@ -71,7 +71,7 @@ const CARD = () => {
                 <CardMedia
                   component="img"
                   alt="NEET 2022"
-                  height="400"
+                  height="300"
                   image={neet2022}
                   title="NEET 2022"
                 />
@@ -105,7 +105,7 @@ const CARD = () => {
                 <CardMedia
                   component="img"
                   alt="UPSC CSE 2022"
-                  height="400"
+                  height="300"
                   image={upsccse2022}
                   title="UPSC CSE 2022"
                 />
