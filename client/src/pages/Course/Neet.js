@@ -83,7 +83,7 @@ const Neet = () => {
                   Share
                 </Button>
                 <Button size="small">
-                  <a href="/amplecontent" color="primary">Learn More</a>
+                  <a href="/amplecontent" className="ml-3" color="primary">Learn More</a>
                 </Button>
               </CardActions>
             </Card>
@@ -117,7 +117,7 @@ const Neet = () => {
                   Share
                 </Button>
                 <Button size="small">
-                  <a href="/binarycontent" color="primary">Learn More</a>
+                  <a href="/binarycontent" color="primary" className="ml-3">Learn More</a>
                 </Button>
               </CardActions>
             </Card>
@@ -151,7 +151,7 @@ const Neet = () => {
                   Share
                 </Button>
                 <Button size="small" color="primary">
-                  <a href="/repeaterscontent">Learn More</a>
+                  <a href="/repeaterscontent" className="ml-3">Learn More</a>
                 </Button>
               </CardActions>
             </Card>
@@ -188,7 +188,7 @@ const Neet = () => {
                   Share
                 </Button>
                 <Button size="small" color="primary">
-                  <a href="/crashcontent">Learn More</a>
+                  <a href="/crashcontent" className="ml-3">Learn More</a>
                 </Button>
               </CardActions>
             </Card>
@@ -222,7 +222,7 @@ const Neet = () => {
                   Share
                 </Button>
                 <Button size="small" color="primary">
-                  <a href="/onlinecontent">LEARN MORE</a>
+                  <a href="/onlinecontent" className="ml-3">LEARN MORE</a>
                 </Button>
               </CardActions>
             </Card>
@@ -256,7 +256,7 @@ const Neet = () => {
                   Share
                 </Button>
                 <Button size="small" color="primary">
-                  <a href="/distancecontent">Learn More</a>
+                  <a href="/distancecontent" className="ml-3">Learn More</a>
                 </Button>
               </CardActions>
             </Card>
