@@ -37,6 +37,9 @@ const DistanceContainerCourses = () => {
               <li style={{marginRight: "15px", marginLeft: "15px", fontFamily: "sans-serif",}}>This course is for all students who due to some reason could not join the regular classes.</li>
               <li style={{marginRight: "15px", marginLeft: "15px", fontFamily: "sans-serif",}}>Our study material along with our Topic wise test & All India Test Series will be delivered to the students.</li>
               <li style={{marginRight: "15px", marginLeft: "15px", fontFamily: "sans-serif",}}>We will provide online access on our portal.</li>
+              <br />
+              <hr style={{borderTop: "1px solid"}} />
+              <li style={{marginRight: "15px", marginLeft: "15px", fontFamily: "sans-serif", listStyle: "none"}}>For more details :- kindly contact on mobile number <u style={{color: "black"}}>7900007174</u></li>  
         </ul>    
      </div>
    </div>
