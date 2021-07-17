@@ -11,6 +11,9 @@ import Button from "@material-ui/core/Button";
 import Typography from "@material-ui/core/Typography";
 import { Container, Row, Col } from "react-bootstrap";
 import logo from "../../images/logo.jpeg";
+import iitjee2022 from "../../images/iitjee2022.png";
+import neet2022 from "../../images/neet2022.png";
+import upsccse2022 from "../../images/upsccse2022.png";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -33,10 +36,10 @@ const CARD = () => {
               <CardActionArea>
                 <CardMedia
                   component="img"
-                  alt="Contemplative Reptile"
+                  alt="IIT JEE 2022"
                   height="140"
-                  image={logo}
-                  title="Contemplative Reptile"
+                  image={iitjee2022}
+                  title="IIT JEE 2022"
                 />
                 <CardContent>
                   <Typography gutterBottom variant="h5" component="h2" className="text-center">
@@ -67,10 +70,10 @@ const CARD = () => {
               <CardActionArea>
                 <CardMedia
                   component="img"
-                  alt="Contemplative Reptile"
+                  alt="NEET 2022"
                   height="140"
-                  image={logo}
-                  title="Contemplative Reptile"
+                  image={neet2022}
+                  title="NEET 2022"
                 />
                 <CardContent>
                   <Typography gutterBottom variant="h5" component="h2" className="text-center">
@@ -101,10 +104,10 @@ const CARD = () => {
               <CardActionArea>
                 <CardMedia
                   component="img"
-                  alt="Contemplative Reptile"
+                  alt="UPSC CSE 2022"
                   height="140"
-                  image={logo}
-                  title="Contemplative Reptile"
+                  image={upsccse2022}
+                  title="UPSC CSE 2022"
                 />
                 <CardContent>
                   <Typography gutterBottom variant="h5" component="h2" className="text-center">
