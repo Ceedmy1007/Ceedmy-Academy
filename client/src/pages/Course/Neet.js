@@ -82,7 +82,7 @@ const Neet = () => {
                 <Button size="small" color="primary">
                   Share
                 </Button>
-                <Button size="small" style={{marginLeft: "80px"}}>
+                <Button size="small" style={{marginLeft: "100px"}}>
                   <a href="/amplecontent" color="primary">Learn More</a>
                 </Button>
               </CardActions>
@@ -116,7 +116,7 @@ const Neet = () => {
                 <Button size="small" color="primary">
                   Share
                 </Button>
-                <Button size="small" style={{marginLeft: "82px"}}>
+                <Button size="small" style={{marginLeft: "105px"}}>
                   <a href="/binarycontent" color="primary" >Learn More</a>
                 </Button>
               </CardActions>
@@ -150,7 +150,7 @@ const Neet = () => {
                 <Button size="small" color="primary">
                   Share
                 </Button>
-                <Button size="small" color="primary" style={{marginLeft: "85px"}}>
+                <Button size="small" color="primary" style={{marginLeft: "110px"}}>
                   <a href="/repeaterscontent" >Learn More</a>
                 </Button>
               </CardActions>
@@ -187,7 +187,7 @@ const Neet = () => {
                 <Button size="small" color="primary">
                   Share
                 </Button>
-                <Button size="small" color="primary" style={{marginLeft: "86px"}}>
+                <Button size="small" color="primary" style={{marginLeft: "115px"}}>
                   <a href="/crashcontent" >Learn More</a>
                 </Button>
               </CardActions>
@@ -221,7 +221,7 @@ const Neet = () => {
                 <Button size="small" color="primary">
                   Share
                 </Button>
-                <Button size="small" color="primary" style={{marginLeft: "88px"}}>
+                <Button size="small" color="primary" style={{marginLeft: "120px"}}>
                   <a href="/onlinecontent" >LEARN MORE</a>
                 </Button>
               </CardActions>
@@ -255,7 +255,7 @@ const Neet = () => {
                 <Button size="small" color="primary">
                   Share
                 </Button>
-                <Button size="small" color="primary" style={{marginLeft: "90px"}}>
+                <Button size="small" color="primary" style={{marginLeft: "125px"}}>
                   <a href="/distancecontent">Learn More</a>
                 </Button>
               </CardActions>
