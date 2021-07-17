@@ -82,8 +82,8 @@ const Neet = () => {
                 <Button size="small" color="primary">
                   Share
                 </Button>
-                <Button size="small">
-                  <a href="/amplecontent" style={{marginLeft: "20px"}} color="primary">Learn More</a>
+                <Button size="small" style={{marginLeft: "40px"}}>
+                  <a href="/amplecontent" color="primary">Learn More</a>
                 </Button>
               </CardActions>
             </Card>
@@ -116,8 +116,8 @@ const Neet = () => {
                 <Button size="small" color="primary">
                   Share
                 </Button>
-                <Button size="small">
-                  <a href="/binarycontent" color="primary" style={{marginLeft: "20px"}}>Learn More</a>
+                <Button size="small" style={{marginLeft: "40px"}}>
+                  <a href="/binarycontent" color="primary" >Learn More</a>
                 </Button>
               </CardActions>
             </Card>
@@ -150,8 +150,8 @@ const Neet = () => {
                 <Button size="small" color="primary">
                   Share
                 </Button>
-                <Button size="small" color="primary">
-                  <a href="/repeaterscontent" style={{marginLeft: "20px"}}>Learn More</a>
+                <Button size="small" color="primary" style={{marginLeft: "40px"}}>
+                  <a href="/repeaterscontent" >Learn More</a>
                 </Button>
               </CardActions>
             </Card>
@@ -187,8 +187,8 @@ const Neet = () => {
                 <Button size="small" color="primary">
                   Share
                 </Button>
-                <Button size="small" color="primary">
-                  <a href="/crashcontent" style={{marginLeft: "20px"}}>Learn More</a>
+                <Button size="small" color="primary" style={{marginLeft: "40px"}}>
+                  <a href="/crashcontent" >Learn More</a>
                 </Button>
               </CardActions>
             </Card>
@@ -221,8 +221,8 @@ const Neet = () => {
                 <Button size="small" color="primary">
                   Share
                 </Button>
-                <Button size="small" color="primary">
-                  <a href="/onlinecontent" style={{marginLeft: "20px"}}>LEARN MORE</a>
+                <Button size="small" color="primary" style={{marginLeft: "40px"}}>
+                  <a href="/onlinecontent" >LEARN MORE</a>
                 </Button>
               </CardActions>
             </Card>
@@ -255,8 +255,8 @@ const Neet = () => {
                 <Button size="small" color="primary">
                   Share
                 </Button>
-                <Button size="small" color="primary">
-                  <a href="/distancecontent" style={{marginLeft: "20px"}}>Learn More</a>
+                <Button size="small" color="primary" style={{marginLeft: "40px"}}>
+                  <a href="/distancecontent">Learn More</a>
                 </Button>
               </CardActions>
             </Card>
