@@ -21,6 +21,13 @@ import CardMedia from "@material-ui/core/CardMedia";
 import Button from "@material-ui/core/Button";
 import Typography from "@material-ui/core/Typography";
 import { Container, Row, Col } from "react-bootstrap";
+
+import ample from "../../images/ample.png";
+import binary from "../../images/binary.png";
+import crash from "../../images/crash.png";
+import distance from "../../images/distance.png";
+import online from "../../images/online.png";
+import repeaters from "../../images/repeaters.png";
 import logo from "../../images/logo.jpeg";
 
 const useStyles = makeStyles((theme) => ({
@@ -54,7 +61,7 @@ const Neet = () => {
                   component="img"
                   alt="Contemplative Reptile"
                   height="140"
-                  image={logo}
+                  image={ample}
                   title="Contemplative Reptile"
                 />
                 <CardContent>
@@ -88,7 +95,7 @@ const Neet = () => {
                   component="img"
                   alt="Contemplative Reptile"
                   height="140"
-                  image={logo}
+                  image={binary}
                   title="Contemplative Reptile"
                 />
                 <CardContent>
@@ -122,7 +129,7 @@ const Neet = () => {
                   component="img"
                   alt="Contemplative Reptile"
                   height="140"
-                  image={logo}
+                  image={repeaters}
                   title="Contemplative Reptile"
                 />
                 <CardContent>
@@ -159,7 +166,7 @@ const Neet = () => {
                   component="img"
                   alt="Contemplative Reptile"
                   height="140"
-                  image={logo}
+                  image={crash}
                   title="Contemplative Reptile"
                 />
                 <CardContent>
@@ -193,7 +200,7 @@ const Neet = () => {
                   component="img"
                   alt="Contemplative Reptile"
                   height="140"
-                  image={logo}
+                  image={online}
                   title="Contemplative Reptile"
                 />
                 <CardContent>
@@ -227,7 +234,7 @@ const Neet = () => {
                   component="img"
                   alt="Contemplative Reptile"
                   height="140"
-                  image={logo}
+                  image={distance}
                   title="Contemplative Reptile"
                 />
                 <CardContent>
