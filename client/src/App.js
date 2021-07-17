@@ -83,7 +83,7 @@ const DefaultRoutes = () => {
       <Route exact path="/upsccontent" component={Upsccontent} />
       <Route exact path="/clatcontent" component={Clatcontent} />
       <Route exact path="/quiz" component={Quiz} />
-      <Route exact path="/neet/amplecontent" component={amplecontent} />
+      <Route exact path="/amplecontent" component={amplecontent} />
       <Route exact path="/binarycontent" component={binarycontent} />
       <Route exact path="/repeaterscontent" component={repeaterscontent} />
       <Route exact path="/crashcontent" component={crashcontent} />
