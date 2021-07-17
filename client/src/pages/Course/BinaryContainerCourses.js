@@ -14,7 +14,7 @@ const BinaryContainerCourses = () => {
               fontFamily: "helvetica",
               textAlign: "center",
               fontWeight: "bold",
-              fontSize: "25",
+              fontSize: "30px",
             }}
           >
             NEET Courses
@@ -24,7 +24,7 @@ const BinaryContainerCourses = () => {
             style={{
               fontFamily: "verdana",     
               textAlign: "center",
-              fontSize: "medium",
+              fontSize: "22px",
             }}
           >
             Binary Program (NEET + AIIMS + JIPMER)
