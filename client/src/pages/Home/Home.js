@@ -47,21 +47,21 @@ const Home = () => {
           <Carousel.Item>
             <Row className="justify-content-md-center">
               <Col sm={3} md="auto" className="mx-auto students">
-                <Image src={IITJEE1} className="FeedbackImg" roundedCircle style={{height: "20%", width: "20%"}} />
+                <Image src={IITJEE1} className="FeedbackImg" roundedCircle style={{height: "60%", width: "60%"}} />
                 <h2>Kanishak Kataria</h2>
                 <p className="text-wrap" style={{ width: "15rem" }}>
 
                 </p>
               </Col>
               <Col sm={3} md="auto" className="mx-auto students">
-                <Image src={UPSC1} className="FeedbackImg" roundedCircle style={{height: "20%", width: "20%"}} />
+                <Image src={UPSC1} className="FeedbackImg" roundedCircle style={{height: "60%", width: "60%"}} />
                 <h2>Dhruv Mittal</h2>
                 <p className="text-wrap" style={{ width: "15rem" }}>
 
                 </p>
               </Col>
               <Col sm={3} md="auto" className="mx-auto students">
-                <Image src={NEET1} className="FeedbackImg" roundedCircle style={{height: "20%", width: "20%"}} />
+                <Image src={NEET1} className="FeedbackImg" roundedCircle style={{height: "60%", width: "60%"}} />
                 <h2>Santosh Chaudhary</h2>
                 <p className="text-wrap" style={{ width: "15rem" }}>
 
