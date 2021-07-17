@@ -82,7 +82,7 @@ const Neet = () => {
                 <Button size="small" color="primary">
                   Share
                 </Button>
-                <Button size="small" style={{marginLeft: "100px"}}>
+                <Button size="small" style={{marginLeft: "125px"}}>
                   <a href="/amplecontent" color="primary">Learn More</a>
                 </Button>
               </CardActions>
@@ -116,7 +116,7 @@ const Neet = () => {
                 <Button size="small" color="primary">
                   Share
                 </Button>
-                <Button size="small" style={{marginLeft: "105px"}}>
+                <Button size="small" style={{marginLeft: "125px"}}>
                   <a href="/binarycontent" color="primary" >Learn More</a>
                 </Button>
               </CardActions>
@@ -150,7 +150,7 @@ const Neet = () => {
                 <Button size="small" color="primary">
                   Share
                 </Button>
-                <Button size="small" color="primary" style={{marginLeft: "110px"}}>
+                <Button size="small" color="primary" style={{marginLeft: "125px"}}>
                   <a href="/repeaterscontent" >Learn More</a>
                 </Button>
               </CardActions>
@@ -187,7 +187,7 @@ const Neet = () => {
                 <Button size="small" color="primary">
                   Share
                 </Button>
-                <Button size="small" color="primary" style={{marginLeft: "115px"}}>
+                <Button size="small" color="primary" style={{marginLeft: "125px"}}>
                   <a href="/crashcontent" >Learn More</a>
                 </Button>
               </CardActions>
@@ -221,7 +221,7 @@ const Neet = () => {
                 <Button size="small" color="primary">
                   Share
                 </Button>
-                <Button size="small" color="primary" style={{marginLeft: "120px"}}>
+                <Button size="small" color="primary" style={{marginLeft: "125px"}}>
                   <a href="/onlinecontent" >LEARN MORE</a>
                 </Button>
               </CardActions>
