@@ -9,9 +9,9 @@ import img1 from "../../images/sliderImg1.jpeg";
 import img2 from "../../images/sliderImg2.jpeg";
 import img3 from "../../images/sliderImg3.jpeg";
 
-import Img1 from "../../images/1.png";
-import Img2 from "../../images/2.png";
-import Img3 from "../../images/3.png";
+import IITJEE1 from "../../images/1.png";
+import UPSC1 from "../../images/2.png";
+import NEET1 from "../../images/3.png";
 
 const Home = () => {
   return (
@@ -47,21 +47,21 @@ const Home = () => {
           <Carousel.Item>
             <Row className="justify-content-md-center">
               <Col sm={3} md="auto" className="mx-auto students">
-                <Image src={Img1} className="FeedbackImg" roundedCircle />
+                <Image src={IITJEE1} className="FeedbackImg" roundedCircle />
                 <h2>Kanishak Kataria</h2>
                 <p className="text-wrap" style={{ width: "15rem" }}>
 
                 </p>
               </Col>
               <Col sm={3} md="auto" className="mx-auto students">
-                <Image src={Img2} className="FeedbackImg" roundedCircle />
+                <Image src={UPSC1} className="FeedbackImg" roundedCircle />
                 <h2>Dhruv Mittal</h2>
                 <p className="text-wrap" style={{ width: "15rem" }}>
 
                 </p>
               </Col>
               <Col sm={3} md="auto" className="mx-auto students">
-                <Image src={Img3} className="FeedbackImg" roundedCircle />
+                <Image src={NEET1} className="FeedbackImg" roundedCircle />
                 <h2>Santosh Chaudhary</h2>
                 <p className="text-wrap" style={{ width: "15rem" }}>
 
