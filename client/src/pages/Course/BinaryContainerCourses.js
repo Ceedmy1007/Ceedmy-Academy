@@ -38,6 +38,9 @@ const BinaryContainerCourses = () => {
               <li style={{marginRight: "15px", marginLeft: "15px", fontFamily: "sans-serif",}}>Regular feedback is taken from the students to identify actions to be taken to improve & enhance their performance.</li>
               <li style={{marginRight: "15px", marginLeft: "15px", fontFamily: "sans-serif",}}>A detailed analysis report is given after every test.</li>
               <li style={{marginRight: "15px", marginLeft: "15px", fontFamily: "sans-serif",}}>Our faculty is a team of highly experienced doctorates and top academicians from their respective fields who excel at competitive exam preparation.</li>
+              <br />
+              <hr style={{borderTop: "1px solid"}} />
+              <li style={{marginRight: "15px", marginLeft: "15px", fontFamily: "sans-serif", listStyle: "none"}}>For more details :- kindly contact on mobile number <u style={{color: "black"}}>7900007174</u></li>  
         </ul>
      </div>
    </div>
