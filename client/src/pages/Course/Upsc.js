@@ -10,7 +10,10 @@ import CardMedia from "@material-ui/core/CardMedia";
 import Button from "@material-ui/core/Button";
 import Typography from "@material-ui/core/Typography";
 import { Container, Row, Col } from "react-bootstrap";
+
 import logo from "../../images/logo.jpeg";
+import basicupsccontent from "./UPSC2022/basicupsccontent.js";
+
 const useStyles = makeStyles((theme) => ({
   root: {
     "& > *": {
@@ -46,17 +49,16 @@ const Upsc = () => {
                   title="Contemplative Reptile"
                 />
                 <CardContent>
-                  <Typography gutterBottom variant="h5" component="h2">
-                    Lizard
+                  <Typography gutterBottom className="text-center" variant="h5" component="h2">
+                    Basic Program
                   </Typography>
                   <Typography
                     variant="body2"
                     color="textSecondary"
                     component="p"
+                    className="text-center"
                   >
-                    Lizards are a widespread group of squamate reptiles, with
-                    over 6,000 species, ranging across all continents except
-                    Antarctica
+                     IAS Foundation course
                   </Typography>
                 </CardContent>
               </CardActionArea>
@@ -64,8 +66,8 @@ const Upsc = () => {
                 <Button size="small" color="primary">
                   Share
                 </Button>
-                <Button size="small" color="primary">
-                  Learn More
+                <Button size="small" style={{marginLeft: "125px"}}>
+                  <a href="/basicupsccontent">Learn More</a>
                 </Button>
               </CardActions>
             </Card>
@@ -99,8 +101,8 @@ const Upsc = () => {
                 <Button size="small" color="primary">
                   Share
                 </Button>
-                <Button size="small" color="primary">
-                  Learn More
+                <Button size="small" style={{marginLeft: "125px"}}>
+                  <a href="#">Learn More</a>
                 </Button>
               </CardActions>
             </Card>
@@ -134,8 +136,8 @@ const Upsc = () => {
                 <Button size="small" color="primary">
                   Share
                 </Button>
-                <Button size="small" color="primary">
-                  Learn More
+                <Button size="small" style={{marginLeft: "125px"}}>
+                  <a href="#">Learn More</a>
                 </Button>
               </CardActions>
             </Card>
@@ -172,8 +174,8 @@ const Upsc = () => {
                 <Button size="small" color="primary">
                   Share
                 </Button>
-                <Button size="small" color="primary">
-                  Learn More
+                <Button size="small" style={{marginLeft: "125px"}}>
+                  <a href="#">Learn More</a>
                 </Button>
               </CardActions>
             </Card>
@@ -207,8 +209,8 @@ const Upsc = () => {
                 <Button size="small" color="primary">
                   Share
                 </Button>
-                <Button size="small" color="primary">
-                  Learn More
+                <Button size="small" style={{marginLeft: "125px"}}>
+                  <a href="#">Learn More</a>
                 </Button>
               </CardActions>
             </Card>
@@ -242,8 +244,8 @@ const Upsc = () => {
                 <Button size="small" color="primary">
                   Share
                 </Button>
-                <Button size="small" color="primary">
-                  Learn More
+                <Button size="small" style={{marginLeft: "125px"}}>
+                  <a href="#">Learn More</a>
                 </Button>
               </CardActions>
             </Card>
