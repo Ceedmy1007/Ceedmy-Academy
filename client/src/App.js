@@ -37,7 +37,7 @@ import jeecrashiitjeecontent from "./pages/Course/IITJEE2022Course/jeecrashiitje
 import distanceiitjeecontent from "./pages/Course/IITJEE2022Course/distanceiitjeecontent";
 import crashiitjeecontent from "./pages/Course/IITJEE2022Course/crashiitjeecontent";
 import cetcrashiitjeecontent from "./pages/Course/IITJEE2022Course/cetcrashiitjeecontent";
-import basicupsccontent from "./pages/Course/UPSC2022/basicupsccontent.js";
+import basicupsccontent from "./pages/Course/UPSC2022/basicupsccontent";
 
 // import Reports from "./Components/dashboard/Reports";
 // import Support from "./Components/dashboard/Support";
