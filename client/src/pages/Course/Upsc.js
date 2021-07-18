@@ -12,7 +12,7 @@ import Typography from "@material-ui/core/Typography";
 import { Container, Row, Col } from "react-bootstrap";
 
 import logo from "../../images/logo.jpeg";
-import basicupsccourses from "./UPSC2022Course/basicupsccourses.js";
+//import basicupsccourses from "./UPSC2022Course/basicupsccourses.js";
 
 const useStyles = makeStyles((theme) => ({
   root: {
