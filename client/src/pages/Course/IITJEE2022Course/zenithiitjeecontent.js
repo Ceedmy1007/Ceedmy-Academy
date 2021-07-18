@@ -4,7 +4,7 @@ import ZenithIITJEEContainerCourses from "./ZenithIITJEEContainerCourses.js";
 const zenithiitjeecontent=()=> {
   return (
     <div >
-      <AmpleContainerCourses />
+      <ZenithIITJEEContainerCourses />
     </div>
   );
 }
