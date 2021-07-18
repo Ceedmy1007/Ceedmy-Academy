@@ -81,7 +81,7 @@ const DefaultRoutes = () => {
       <Route exact path="/about" component={About} />
       <Route exact path="/upsc" component={Upsc} />
       <Route exact path="/mpsc" component={Mpsc} />
-      <Route exact path="/course/iit" component={IIT} />
+      <Route exact path="/iit" component={IIT} />
       <Route exact path="/neet" component={Neet} />
       <Route exact path="/school" component={School} />
       <Route exact path="/clat" component={Clat} />
@@ -95,7 +95,7 @@ const DefaultRoutes = () => {
       <Route exact path="/crashcontent" component={crashcontent} />
       <Route exact path="/distancecontent" component={distancecontent} />
       <Route exact path="/onlinecontent" component={onlinecontent} />
-      <Route exact path="/course/iit/zenithiitjeecontent" component={zenithiitjeecontent} />
+      <Route exact path="/zenithiitjeecontent" component={zenithiitjeecontent} />
       <Route exact path="/supportiitjeecontent" component={supportiitjeecontent} />
       <Route exact path="/jeecrashiitjeecontent" component={jeecrashiitjeecontent} />
       <Route exact path="/distanceiitjeecontent" component={distanceiitjeecontent} />
