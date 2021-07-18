@@ -13,6 +13,11 @@ import { Container, Row, Col } from "react-bootstrap";
 
 import logo from "../../images/logo.jpeg";
 import zenithiitjeecontent from "./IITJEE2022Course/zenithiitjeecontent.js";
+import cetcrashiitjeecontent from "./IITJEE2022Course/cetcrashiitjeecontent.js";
+import crashiitjeecontent from "./IITJEE2022Course/crashiitjeecontent.js";
+import distanceiitjeecontent from "./IITJEE2022Course/distanceiitjeecontent.js";
+import jeecrashiitjeecontent from "./IITJEE2022Course/jeecrashiitjeecontent.js";
+import supportiitjeecontent from "./IITJEE2022Course/supportiitjeecontent.js";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -101,7 +106,7 @@ const IIT = () => {
                   Share
                 </Button>
                 <Button size="small" style={{marginLeft: "125px"}}>
-                  <a href="#" style={{textColor: "primary"}}>Learn More</a>
+                  <a href="/supportiitjeecontent" style={{textColor: "primary"}}>Learn More</a>
                 </Button>
               </CardActions>
             </Card>
@@ -135,7 +140,7 @@ const IIT = () => {
                   Share
                 </Button>
                 <Button size="small" style={{marginLeft: "125px"}}>
-                  <a href="#" style={{textColor: "primary"}}>Learn More</a>
+                  <a href="/jeecrashiitjeecontent" style={{textColor: "primary"}}>Learn More</a>
                 </Button>
               </CardActions>
             </Card>
@@ -172,7 +177,7 @@ const IIT = () => {
                   Share
                 </Button>
                 <Button size="small" style={{marginLeft: "125px"}}>
-                  <a href="#" style={{textColor: "primary"}}>Learn More</a>
+                  <a href="/distanceiitjeecontent" style={{textColor: "primary"}}>Learn More</a>
                 </Button>
               </CardActions>
             </Card>
@@ -206,7 +211,7 @@ const IIT = () => {
                   Share
                 </Button>
                 <Button size="small" style={{marginLeft: "125px"}}>
-                  <a href="#" style={{textColor: "primary"}}>Learn More</a>
+                  <a href="/crashiitjeecontent" style={{textColor: "primary"}}>Learn More</a>
                 </Button>
               </CardActions>
             </Card>
@@ -240,7 +245,7 @@ const IIT = () => {
                   Share
                 </Button>
                 <Button size="small" style={{marginLeft: "125px"}}>
-                  <a href="#" style={{textColor: "primary"}}>Learn More</a>
+                  <a href="/cetcrashiitjeecontent" style={{textColor: "primary"}}>Learn More</a>
                 </Button>
               </CardActions>
             </Card>
