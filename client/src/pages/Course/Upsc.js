@@ -67,7 +67,7 @@ const Upsc = () => {
                   Share
                 </Button>
                 <Button size="small" style={{marginLeft: "125px"}}>
-                  <a href="/basicupsccourses">Learn More</a>
+                  <a href="#">Learn More</a>
                 </Button>
               </CardActions>
             </Card>
