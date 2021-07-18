@@ -13,7 +13,6 @@ import { Container, Row, Col } from "react-bootstrap";
 
 import logo from "../../images/logo.jpeg";
 import zenithiitjeecontent from "./IITJEE2022Course/zenithiitjeecontent.js";
-import ZenithIITJEEContainerCourses from "./IITJEE2022Course/ZenithIITJEEContainerCourses.js";
 
 const useStyles = makeStyles((theme) => ({
   root: {
