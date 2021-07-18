@@ -37,7 +37,7 @@ import jeecrashiitjeecontent from "./pages/Course/IITJEE2022Course/jeecrashiitje
 import distanceiitjeecontent from "./pages/Course/IITJEE2022Course/distanceiitjeecontent";
 import crashiitjeecontent from "./pages/Course/IITJEE2022Course/crashiitjeecontent";
 import cetcrashiitjeecontent from "./pages/Course/IITJEE2022Course/cetcrashiitjeecontent";
-import beginupsccontent from "./pages/Course/UPSC2022/beginupsccontent";
+import basicupsccontent from "./pages/Course/UPSC2022Course/basicupsccontent";
 
 // import Reports from "./Components/dashboard/Reports";
 // import Support from "./Components/dashboard/Support";
@@ -102,7 +102,7 @@ const DefaultRoutes = () => {
       <Route exact path="/distanceiitjeecontent" component={distanceiitjeecontent} />
       <Route exact path="/crashiitjeecontent" component={crashiitjeecontent} />
       <Route exact path="/cetcrashiitjeecontent" component={cetcrashiitjeecontent} />
-      <Route exact path="beginupsccontent" component={beginupsccontent} />  
+      <Route exact path="basicupsccontent" component={basicupsccontent} />  
     
     </Switch>
      <Footer />
