@@ -12,7 +12,7 @@ import Typography from "@material-ui/core/Typography";
 import { Container, Row, Col } from "react-bootstrap";
 
 import logo from "../../images/logo.jpeg";
-import zenithiitjeecontent from "../IITJEE2022Course/zenithiitjeecontent.js";
+import zenithiitjeecontent from "./IITJEE2022Course/zenithiitjeecontent.js";
 
 const useStyles = makeStyles((theme) => ({
   root: {
