@@ -10,7 +10,10 @@ import CardMedia from "@material-ui/core/CardMedia";
 import Button from "@material-ui/core/Button";
 import Typography from "@material-ui/core/Typography";
 import { Container, Row, Col } from "react-bootstrap";
+
 import logo from "../../images/logo.jpeg";
+import zenithiitjeecontent from "../IITJEE2022Course/zenithiitjeecontent.js";
+
 const useStyles = makeStyles((theme) => ({
   root: {
     "& > *": {
@@ -64,7 +67,7 @@ const IIT = () => {
                   Share
                 </Button>
                 <Button size="small" style={{marginLeft: "125px"}}>
-                  <a href="#" style={{textColor: "primary"}}>Learn More</a>
+                  <a href="/zenithiitjeecontent" style={{textColor: "primary"}}>Learn More</a>
                 </Button>
               </CardActions>
             </Card>
