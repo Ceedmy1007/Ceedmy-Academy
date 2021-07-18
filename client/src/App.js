@@ -31,6 +31,7 @@ import repeaterscontent from "./pages/Course/repeaterscontent";
 import crashcontent from "./pages/Course/crashcontent";
 import onlinecontent from "./pages/Course/onlinecontent";
 import distancecontent from "./pages/Course/distancecontent";
+import zenithiitjeecontent from "./pages/Course/IITJEE2022Course/zenithiitjeecontent";
 
 // import Reports from "./Components/dashboard/Reports";
 // import Support from "./Components/dashboard/Support";
@@ -89,6 +90,7 @@ const DefaultRoutes = () => {
       <Route exact path="/crashcontent" component={crashcontent} />
       <Route exact path="/distancecontent" component={distancecontent} />
       <Route exact path="/onlinecontent" component={onlinecontent} />
+      <Route exact path="/zenithiitjeecontent" component={zenithiitjeecontent} />  
     
     </Switch>
      <Footer />
