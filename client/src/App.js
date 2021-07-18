@@ -1,6 +1,6 @@
 import { Provider } from "react-redux";
 import store from "./store";
-import { BrowserRouter , Route, Switch } from "react-router-dom";
+import { BrowserRouter , Route, Switch, push } from "react-router-dom";
 
 import jwt_decode from "jwt-decode";
 import setAuthToken from "./utils/setAuthToken";
@@ -115,9 +115,9 @@ const App = () => {
         <BrowserRouter>
           <Switch>
            
-            <PrivateRoute push="/dashboard/" path="/dashboard/" component={Dashboard} />
+            <PrivateRoute path="/dashboard/" component={Dashboard} />
            
-            <Route component={DefaultRoutes} />
+            <Route push="/dashboard/" component={DefaultRoutes} />
           </Switch>
         </BrowserRouter>
       </Provider>
