@@ -37,7 +37,7 @@ import jeecrashiitjeecontent from "./pages/Course/IITJEE2022Course/jeecrashiitje
 import distanceiitjeecontent from "./pages/Course/IITJEE2022Course/distanceiitjeecontent";
 import crashiitjeecontent from "./pages/Course/IITJEE2022Course/crashiitjeecontent";
 import cetcrashiitjeecontent from "./pages/Course/IITJEE2022Course/cetcrashiitjeecontent";
-import basicupsccourses from "./pages/Course/UPSC2022Course/basicupsccourses";
+//import basicupsccourses from "./pages/Course/UPSC2022Course/basicupsccourses";
 
 // import Reports from "./Components/dashboard/Reports";
 // import Support from "./Components/dashboard/Support";
@@ -119,7 +119,7 @@ const App = () => {
            
             <PrivateRoute path="/dashboard/" component={Dashboard} />
            
-            <Route component={DefaultRoutes} />
+            <Route path="/dashboard/" component={DefaultRoutes} />
           </Switch>
         </BrowserRouter>
       </Provider>
