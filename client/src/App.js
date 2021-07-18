@@ -102,7 +102,7 @@ const DefaultRoutes = () => {
       <Route exact path="/distanceiitjeecontent" component={distanceiitjeecontent} />
       <Route exact path="/crashiitjeecontent" component={crashiitjeecontent} />
       <Route exact path="/cetcrashiitjeecontent" component={cetcrashiitjeecontent} />
-      <Route exact path="/basicupsccourses" component={basicupsccontent} />  
+      //<Route exact path="/basicupsccourses" component={basicupsccontent} />  
     
     </Switch>
      <Footer />
