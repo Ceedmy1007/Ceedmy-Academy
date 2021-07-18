@@ -32,6 +32,11 @@ import crashcontent from "./pages/Course/crashcontent";
 import onlinecontent from "./pages/Course/onlinecontent";
 import distancecontent from "./pages/Course/distancecontent";
 import zenithiitjeecontent from "./pages/Course/IITJEE2022Course/zenithiitjeecontent";
+import supportiitjeecontent from "./pages/Course/IITJEE2022Course/supportiitjeecontent";
+import jeecrashiitjeecontent from "./pages/Course/IITJEE2022Course/jeecrashiitjeecontent";
+import distanceiitjeecontent from "./pages/Course/IITJEE2022Course/distanceiitjeecontent";
+import crashiitjeecontent from "./pages/Course/IITJEE2022Course/crashiitjeecontent";
+import cetcrashiitjeecontent from "./pages/Course/IITJEE2022Course/cetcrashiitjeecontent";
 
 // import Reports from "./Components/dashboard/Reports";
 // import Support from "./Components/dashboard/Support";
@@ -90,7 +95,12 @@ const DefaultRoutes = () => {
       <Route exact path="/crashcontent" component={crashcontent} />
       <Route exact path="/distancecontent" component={distancecontent} />
       <Route exact path="/onlinecontent" component={onlinecontent} />
-      <Route exact path="/zenithiitjeecontent" component={zenithiitjeecontent} />  
+      <Route exact path="/zenithiitjeecontent" component={zenithiitjeecontent} />
+      <Route exact path="/supportiitjeecontent" component={supportiitjeecontent} />
+      <Route exact path="/jeecrashiitjeecontent" component={jeecrashiitjeecontent} />
+      <Route exact path="/distanceiitjeecontent" component={distanceiitjeecontent} />
+      <Route exact path="/crashiitjeecontent" component={crashiitjeecontent} />
+      <Route exact path="/cetcrashiitjeecontent" component={cetcrashiitjeecontent} />  
     
     </Switch>
      <Footer />
