@@ -27,7 +27,7 @@ const BasicUPSCContainerCourses = () => {
               fontSize: "22px",
             }}
           >
-            Basic Program
+            IAS Foundation Course
           </h2>
         </nav>
         <br />
