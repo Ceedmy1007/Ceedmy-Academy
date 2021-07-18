@@ -46,17 +46,16 @@ const IIT = () => {
                   title="Contemplative Reptile"
                 />
                 <CardContent>
-                  <Typography gutterBottom variant="h5" component="h2">
-                    Lizard
+                  <Typography gutterBottom className="text-center" variant="h5" component="h2">
+                    Zenith Program
                   </Typography>
                   <Typography
                     variant="body2"
                     color="textSecondary"
                     component="p"
+                    className="text-center"
                   >
-                    Lizards are a widespread group of squamate reptiles, with
-                    over 6,000 species, ranging across all continents except
-                    Antarctica
+                      2 year JEE Advanced + OLYMPIADS
                   </Typography>
                 </CardContent>
               </CardActionArea>
@@ -64,8 +63,8 @@ const IIT = () => {
                 <Button size="small" color="primary">
                   Share
                 </Button>
-                <Button size="small" color="primary">
-                  Learn More
+                <Button size="small" style={{marginLeft: "125px"}}>
+                  <a href="#" style={{textColor: "primary"}}>Learn More</a>
                 </Button>
               </CardActions>
             </Card>
@@ -81,17 +80,16 @@ const IIT = () => {
                   title="Contemplative Reptile"
                 />
                 <CardContent>
-                  <Typography gutterBottom variant="h5" component="h2">
-                    Lizard
+                  <Typography gutterBottom variant="h5" component="h2" className="text-center">
+                    Support Program
                   </Typography>
                   <Typography
                     variant="body2"
                     color="textSecondary"
                     component="p"
+                    className="text-center"
                   >
-                    Lizards are a widespread group of squamate reptiles, with
-                    over 6,000 species, ranging across all continents except
-                    Antarctica
+                    2 year JEE Main + JEE Advance
                   </Typography>
                 </CardContent>
               </CardActionArea>
@@ -99,8 +97,8 @@ const IIT = () => {
                 <Button size="small" color="primary">
                   Share
                 </Button>
-                <Button size="small" color="primary">
-                  Learn More
+                <Button size="small" style={{marginLeft: "125px"}}>
+                  <a href="#" style={{textColor: "primary"}}>Learn More</a>
                 </Button>
               </CardActions>
             </Card>
@@ -116,17 +114,16 @@ const IIT = () => {
                   title="Contemplative Reptile"
                 />
                 <CardContent>
-                  <Typography gutterBottom variant="h5" component="h2">
-                    Lizard
+                  <Typography gutterBottom className="text-center" variant="h5" component="h2">
+                    JEE Crash Course
                   </Typography>
                   <Typography
                     variant="body2"
                     color="textSecondary"
                     component="p"
+                    className="text-center"
                   >
-                    Lizards are a widespread group of squamate reptiles, with
-                    over 6,000 species, ranging across all continents except
-                    Antarctica
+                    2 year JEE Main + OLYMPIADS
                   </Typography>
                 </CardContent>
               </CardActionArea>
@@ -134,8 +131,8 @@ const IIT = () => {
                 <Button size="small" color="primary">
                   Share
                 </Button>
-                <Button size="small" color="primary">
-                  Learn More
+                <Button size="small" style={{marginLeft: "125px"}}>
+                  <a href="#" style={{textColor: "primary"}}>Learn More</a>
                 </Button>
               </CardActions>
             </Card>
@@ -154,17 +151,16 @@ const IIT = () => {
                   title="Contemplative Reptile"
                 />
                 <CardContent>
-                  <Typography gutterBottom variant="h5" component="h2">
-                    Lizard
+                  <Typography gutterBottom variant="h5" className = "text-center" component="h2">
+                    Distance Learning
                   </Typography>
                   <Typography
                     variant="body2"
                     color="textSecondary"
                     component="p"
+                    className="text-center"
                   >
-                    Lizards are a widespread group of squamate reptiles, with
-                    over 6,000 species, ranging across all continents except
-                    Antarctica
+                    IIT JEE
                   </Typography>
                 </CardContent>
               </CardActionArea>
@@ -172,8 +168,8 @@ const IIT = () => {
                 <Button size="small" color="primary">
                   Share
                 </Button>
-                <Button size="small" color="primary">
-                  Learn More
+                <Button size="small" style={{marginLeft: "125px"}}>
+                  <a href="#" style={{textColor: "primary"}}>Learn More</a>
                 </Button>
               </CardActions>
             </Card>
@@ -189,17 +185,16 @@ const IIT = () => {
                   title="Contemplative Reptile"
                 />
                 <CardContent>
-                  <Typography gutterBottom variant="h5" component="h2">
-                    Lizard
+                  <Typography gutterBottom className="text-center" variant="h5" component="h2">
+                    Crash Course
                   </Typography>
                   <Typography
                     variant="body2"
                     color="textSecondary"
                     component="p"
+                    className="text-center"
                   >
-                    Lizards are a widespread group of squamate reptiles, with
-                    over 6,000 species, ranging across all continents except
-                    Antarctica
+                    IIT JEE
                   </Typography>
                 </CardContent>
               </CardActionArea>
@@ -207,8 +202,8 @@ const IIT = () => {
                 <Button size="small" color="primary">
                   Share
                 </Button>
-                <Button size="small" color="primary">
-                  Learn More
+                <Button size="small" style={{marginLeft: "125px"}}>
+                  <a href="#" style={{textColor: "primary"}}>Learn More</a>
                 </Button>
               </CardActions>
             </Card>
@@ -224,17 +219,16 @@ const IIT = () => {
                   title="Contemplative Reptile"
                 />
                 <CardContent>
-                  <Typography gutterBottom variant="h5" component="h2">
-                    Lizard
+                  <Typography gutterBottom className="text-center" variant="h5" component="h2">
+                    CET Crash Course
                   </Typography>
                   <Typography
                     variant="body2"
                     color="textSecondary"
                     component="p"
+                    className="text-center"
                   >
-                    Lizards are a widespread group of squamate reptiles, with
-                    over 6,000 species, ranging across all continents except
-                    Antarctica
+                    IIT JEE
                   </Typography>
                 </CardContent>
               </CardActionArea>
@@ -242,8 +236,8 @@ const IIT = () => {
                 <Button size="small" color="primary">
                   Share
                 </Button>
-                <Button size="small" color="primary">
-                  Learn More
+                <Button size="small" style={{marginLeft: "125px"}}>
+                  <a href="#" style={{textColor: "primary"}}>Learn More</a>
                 </Button>
               </CardActions>
             </Card>
