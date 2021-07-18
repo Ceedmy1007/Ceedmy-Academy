@@ -12,7 +12,7 @@ import Typography from "@material-ui/core/Typography";
 import { Container, Row, Col } from "react-bootstrap";
 
 import logo from "../../images/logo.jpeg";
-import basicupsccontent from "./UPSC2022/basicupsccontent.js";
+import beginupsccontent from "./UPSC2022/beginupsccontent.js";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -67,7 +67,7 @@ const Upsc = () => {
                   Share
                 </Button>
                 <Button size="small" style={{marginLeft: "125px"}}>
-                  <a href="/basicupsccontent">Learn More</a>
+                  <a href="/beginupsccontent">Learn More</a>
                 </Button>
               </CardActions>
             </Card>
