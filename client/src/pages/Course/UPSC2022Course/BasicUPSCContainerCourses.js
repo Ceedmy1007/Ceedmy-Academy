@@ -31,7 +31,7 @@ const BasicUPSCContainerCourses = () => {
           </h2>
         </nav>
         <br />
-              {//<ul>
+              {/**<ul>
               <li style={{listStyle: "none", marginRight: "15px", marginLeft: "15px", fontFamily: "sans-serif", fontSize: "20px"}}>To crack the record boundary, it is always a good option to choose the best guide and suitable content to work on it and then only we can utilize our hard work in a good direction. We are providing UPSC preparation in such a way which includes coaching, courses, online classes, doubt clearing session, Mains and Prelims test series, video lectures session of each sections that are already filtered to save your time in selection of useful content that cover a whole useful topic for your beneficial preparation. So, we can say that we are focusing on holistic preparation of UPSC in every possible manner.</li>
               <br />  
               <li style={{listStyle: "none", marginRight: "15px", marginLeft: "15px", fontFamily: "sans-serif", fontSize: "20px"}}><b>Why you should trust Ceedmy for your UPSC preparation.</b></li>
@@ -90,7 +90,7 @@ const BasicUPSCContainerCourses = () => {
               <hr style={{borderTop: "1px solid"}} />
               <li style={{marginRight: "15px", marginLeft: "15px", fontFamily: "sans-serif", listStyle: "none", fontSize: "20px"}}>For more details :- kindly contact on mobile number <u style={{color: "black"}}>7900007174</u></li>  
         </ul>
-       //}
+       **/}
        <p>Hello World</p>
      </div>
    </div>
