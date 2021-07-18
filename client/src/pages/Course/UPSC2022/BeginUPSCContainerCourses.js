@@ -1,6 +1,6 @@
 import React from "react";
 
-const BasicUPSCContainerCourses = () => {
+const BeginUPSCContainerCourses = () => {
   return (
       <>
      
@@ -95,4 +95,4 @@ const BasicUPSCContainerCourses = () => {
  </>
   );
 };
-export default BasicUPSCContainerCourses;
+export default BeginUPSCContainerCourses;
