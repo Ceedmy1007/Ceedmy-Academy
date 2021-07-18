@@ -58,7 +58,7 @@ const Upsc = () => {
                     component="p"
                     className="text-center"
                   >
-                     IAS Foundation course
+                     IAS Foundation Course
                   </Typography>
                 </CardContent>
               </CardActionArea>
