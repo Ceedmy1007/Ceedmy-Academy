@@ -37,6 +37,7 @@ import jeecrashiitjeecontent from "./pages/Course/IITJEE2022Course/jeecrashiitje
 import distanceiitjeecontent from "./pages/Course/IITJEE2022Course/distanceiitjeecontent";
 import crashiitjeecontent from "./pages/Course/IITJEE2022Course/crashiitjeecontent";
 import cetcrashiitjeecontent from "./pages/Course/IITJEE2022Course/cetcrashiitjeecontent";
+import basicupsccontent from "./pages/Course/UPSC2022/basicupsccontent.js";
 
 // import Reports from "./Components/dashboard/Reports";
 // import Support from "./Components/dashboard/Support";
@@ -93,14 +94,15 @@ const DefaultRoutes = () => {
       <Route exact path="/binarycontent" component={binarycontent} />
       <Route exact path="/repeaterscontent" component={repeaterscontent} />
       <Route exact path="/crashcontent" component={crashcontent} />
-      <Route exact path="/distancecontent" component={distancecontent} />
+      <Route exact path="/distancecontent" component={distancecontent} /> 
       <Route exact path="/onlinecontent" component={onlinecontent} />
       <Route exact path="/zenithiitjeecontent" component={zenithiitjeecontent} />
       <Route exact path="/supportiitjeecontent" component={supportiitjeecontent} />
       <Route exact path="/jeecrashiitjeecontent" component={jeecrashiitjeecontent} />
       <Route exact path="/distanceiitjeecontent" component={distanceiitjeecontent} />
       <Route exact path="/crashiitjeecontent" component={crashiitjeecontent} />
-      <Route exact path="/cetcrashiitjeecontent" component={cetcrashiitjeecontent} />  
+      <Route exact path="/cetcrashiitjeecontent" component={cetcrashiitjeecontent} />
+      <Route exact path="basicupsccontent" component={basicupsccontent} />  
     
     </Switch>
      <Footer />
@@ -115,9 +117,9 @@ const App = () => {
         <BrowserRouter>
           <Switch>
            
-            <PrivateRoute path="/dashboard/ + store" component={Dashboard} />
+            <PrivateRoute path="/dashboard/" component={Dashboard} />
            
-            <Route push="/dashboard/ + store" component={DefaultRoutes} />
+            <Route component={DefaultRoutes} />
           </Switch>
         </BrowserRouter>
       </Provider>
