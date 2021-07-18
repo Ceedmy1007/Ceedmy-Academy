@@ -1,7 +1,7 @@
 import React from 'react';
 import BasicUPSCContainerCourses from "./BasicUPSCContainerCourses.js";
 
-const basicupsccontent=()=> {
+const basicupsccorses=()=> {
   return (
     <div >
       <BasicUPSCContainerCourses />
@@ -9,4 +9,4 @@ const basicupsccontent=()=> {
   );
 }
 
-export default basicupsccontent;
+export default basicupsccorses;
