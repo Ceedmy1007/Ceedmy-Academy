@@ -115,7 +115,7 @@ const App = () => {
         <BrowserRouter>
           <Switch>
            
-            <PrivateRoute  path="/dashboard/" component={Dashboard} />
+            <PrivateRoute push="/dashboard/" path="/dashboard/" component={Dashboard} />
            
             <Route component={DefaultRoutes} />
           </Switch>
