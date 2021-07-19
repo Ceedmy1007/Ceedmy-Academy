@@ -119,7 +119,7 @@ const App = () => {
            
             <PrivateRoute path="/dashboard/" component={Dashboard} />
            
-            <Route path="/dashboard/" component={DefaultRoutes} />
+            <Route path="/" component={DefaultRoutes} />
           </Switch>
         </BrowserRouter>
       </Provider>
