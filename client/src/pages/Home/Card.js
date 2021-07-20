@@ -11,9 +11,6 @@ import Button from "@material-ui/core/Button";
 import Typography from "@material-ui/core/Typography";
 import { Container, Row, Col } from "react-bootstrap";
 import logo from "../../images/logo.jpeg";
-import iitjee2022 from "../../images/iitjee2022.png";
-import neet2022 from "../../images/neet2022.png";
-import upsccse2022 from "../../images/upsccse2022.png";
 
 const useStyles = makeStyles((theme) => ({
   root: {
