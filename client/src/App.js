@@ -25,19 +25,6 @@ import Mpsccontent from "./pages/Content/MPSC/mpsccontent";
 import Upsccontent from "./pages/Content/UPSC/upsccontent";
 import Clatcontent from "./pages/Content/CLAT/clatcontent";
 import Quiz from "./pages/Content/Quizes/Quize";
-import Amplecontent from "./pages/Course/amplecontent";
-import Binarycontent from "./pages/Course/binarycontent";
-import Repeaterscontent from "./pages/Course/repeaterscontent";
-import Crashcontent from "./pages/Course/crashcontent";
-import Onlinecontent from "./pages/Course/onlinecontent";
-import Distancecontent from "./pages/Course/distancecontent";
-import Zenithiitjeecontent from "./pages/Course/IITJEE2022Course/zenithiitjeecontent";
-import Supportiitjeecontent from "./pages/Course/IITJEE2022Course/supportiitjeecontent";
-import Jeecrashiitjeecontent from "./pages/Course/IITJEE2022Course/jeecrashiitjeecontent";
-import Distanceiitjeecontent from "./pages/Course/IITJEE2022Course/distanceiitjeecontent";
-import Crashiitjeecontent from "./pages/Course/IITJEE2022Course/crashiitjeecontent";
-import Cetcrashiitjeecontent from "./pages/Course/IITJEE2022Course/cetcrashiitjeecontent";
-//import basicupsccourses from "./pages/Course/UPSC2022Course/basicupsccourses";
 
 // import Reports from "./Components/dashboard/Reports";
 // import Support from "./Components/dashboard/Support";
@@ -90,19 +77,6 @@ const DefaultRoutes = () => {
       <Route exact path="/upsccontent" component={Upsccontent} />
       <Route exact path="/clatcontent" component={Clatcontent} />
       <Route exact path="/quiz" component={Quiz} />
-      <Route exact path="/amplecontent" component={Amplecontent} />
-      <Route exact path="/binarycontent" component={Binarycontent} />
-      <Route exact path="/repeaterscontent" component={Repeaterscontent} />
-      <Route exact path="/crashcontent" component={Crashcontent} />
-      <Route exact path="/distancecontent" component={Distancecontent} /> 
-      <Route exact path="/onlinecontent" component={Onlinecontent} />
-      <Route exact path="/zenithiitjeecontent" component={Zenithiitjeecontent} />
-      <Route exact path="/supportiitjeecontent" component={Supportiitjeecontent} />
-      <Route exact path="/jeecrashiitjeecontent" component={Jeecrashiitjeecontent} />
-      <Route exact path="/distanceiitjeecontent" component={Distanceiitjeecontent} />
-      <Route exact path="/crashiitjeecontent" component={Crashiitjeecontent} />
-      <Route exact path="/cetcrashiitjeecontent" component={Cetcrashiitjeecontent} />
-      //<Route exact path="/basicupsccourses" component={basicupsccontent} />  
     
     </Switch>
      <Footer />

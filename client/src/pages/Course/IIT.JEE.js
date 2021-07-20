@@ -12,12 +12,6 @@ import Typography from "@material-ui/core/Typography";
 import { Container, Row, Col } from "react-bootstrap";
 
 import logo from "../../images/logo.jpeg";
-import zenithiitjeecontent from "./IITJEE2022Course/zenithiitjeecontent.js";
-import cetcrashiitjeecontent from "./IITJEE2022Course/cetcrashiitjeecontent.js";
-import crashiitjeecontent from "./IITJEE2022Course/crashiitjeecontent.js";
-import distanceiitjeecontent from "./IITJEE2022Course/distanceiitjeecontent.js";
-import jeecrashiitjeecontent from "./IITJEE2022Course/jeecrashiitjeecontent.js";
-import supportiitjeecontent from "./IITJEE2022Course/supportiitjeecontent.js";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -54,16 +48,17 @@ const IIT = () => {
                   title="Contemplative Reptile"
                 />
                 <CardContent>
-                  <Typography gutterBottom className="text-center" variant="h5" component="h2">
-                    Zenith Program
+                  <Typography gutterBottom variant="h5" component="h2">
+                    Lizard
                   </Typography>
                   <Typography
                     variant="body2"
                     color="textSecondary"
                     component="p"
-                    className="text-center"
                   >
-                      2 year JEE Advanced + OLYMPIADS
+                    Lizards are a widespread group of squamate reptiles, with
+                    over 6,000 species, ranging across all continents except
+                    Antarctica
                   </Typography>
                 </CardContent>
               </CardActionArea>
@@ -71,8 +66,8 @@ const IIT = () => {
                 <Button size="small" color="primary">
                   Share
                 </Button>
-                <Button size="small" style={{marginLeft: "125px"}}>
-                  <a href="/zenithiitjeecontent" style={{textColor: "primary"}}>Learn More</a>
+                <Button size="small" color="primary">
+                  Learn More
                 </Button>
               </CardActions>
             </Card>
@@ -88,16 +83,17 @@ const IIT = () => {
                   title="Contemplative Reptile"
                 />
                 <CardContent>
-                  <Typography gutterBottom variant="h5" component="h2" className="text-center">
-                    Support Program
+                  <Typography gutterBottom variant="h5" component="h2">
+                    Lizard
                   </Typography>
                   <Typography
                     variant="body2"
                     color="textSecondary"
                     component="p"
-                    className="text-center"
                   >
-                    2 year JEE Main + JEE Advance
+                    Lizards are a widespread group of squamate reptiles, with
+                    over 6,000 species, ranging across all continents except
+                    Antarctica
                   </Typography>
                 </CardContent>
               </CardActionArea>
@@ -105,8 +101,8 @@ const IIT = () => {
                 <Button size="small" color="primary">
                   Share
                 </Button>
-                <Button size="small" style={{marginLeft: "125px"}}>
-                  <a href="/supportiitjeecontent" style={{textColor: "primary"}}>Learn More</a>
+                <Button size="small" color="primary">
+                  Learn More
                 </Button>
               </CardActions>
             </Card>
@@ -122,16 +118,17 @@ const IIT = () => {
                   title="Contemplative Reptile"
                 />
                 <CardContent>
-                  <Typography gutterBottom className="text-center" variant="h5" component="h2">
-                    JEE Crash Course
+                  <Typography gutterBottom variant="h5" component="h2">
+                    Lizard
                   </Typography>
                   <Typography
                     variant="body2"
                     color="textSecondary"
                     component="p"
-                    className="text-center"
                   >
-                    2 year JEE Main + OLYMPIADS
+                    Lizards are a widespread group of squamate reptiles, with
+                    over 6,000 species, ranging across all continents except
+                    Antarctica
                   </Typography>
                 </CardContent>
               </CardActionArea>
@@ -139,8 +136,8 @@ const IIT = () => {
                 <Button size="small" color="primary">
                   Share
                 </Button>
-                <Button size="small" style={{marginLeft: "125px"}}>
-                  <a href="/jeecrashiitjeecontent" style={{textColor: "primary"}}>Learn More</a>
+                <Button size="small" color="primary">
+                  Learn More
                 </Button>
               </CardActions>
             </Card>
@@ -159,16 +156,17 @@ const IIT = () => {
                   title="Contemplative Reptile"
                 />
                 <CardContent>
-                  <Typography gutterBottom variant="h5" className = "text-center" component="h2">
-                    Distance Learning
+                  <Typography gutterBottom variant="h5" component="h2">
+                    Lizard
                   </Typography>
                   <Typography
                     variant="body2"
                     color="textSecondary"
                     component="p"
-                    className="text-center"
                   >
-                    IIT JEE
+                    Lizards are a widespread group of squamate reptiles, with
+                    over 6,000 species, ranging across all continents except
+                    Antarctica
                   </Typography>
                 </CardContent>
               </CardActionArea>
@@ -176,8 +174,8 @@ const IIT = () => {
                 <Button size="small" color="primary">
                   Share
                 </Button>
-                <Button size="small" style={{marginLeft: "125px"}}>
-                  <a href="/distanceiitjeecontent" style={{textColor: "primary"}}>Learn More</a>
+                <Button size="small" color="primary">
+                  Learn More
                 </Button>
               </CardActions>
             </Card>
@@ -193,16 +191,17 @@ const IIT = () => {
                   title="Contemplative Reptile"
                 />
                 <CardContent>
-                  <Typography gutterBottom className="text-center" variant="h5" component="h2">
-                    Crash Course
+                  <Typography gutterBottom variant="h5" component="h2">
+                    Lizard
                   </Typography>
                   <Typography
                     variant="body2"
                     color="textSecondary"
                     component="p"
-                    className="text-center"
                   >
-                    IIT JEE
+                    Lizards are a widespread group of squamate reptiles, with
+                    over 6,000 species, ranging across all continents except
+                    Antarctica
                   </Typography>
                 </CardContent>
               </CardActionArea>
@@ -210,8 +209,8 @@ const IIT = () => {
                 <Button size="small" color="primary">
                   Share
                 </Button>
-                <Button size="small" style={{marginLeft: "125px"}}>
-                  <a href="/crashiitjeecontent" style={{textColor: "primary"}}>Learn More</a>
+                <Button size="small" color="primary">
+                  Learn More
                 </Button>
               </CardActions>
             </Card>
@@ -227,16 +226,17 @@ const IIT = () => {
                   title="Contemplative Reptile"
                 />
                 <CardContent>
-                  <Typography gutterBottom className="text-center" variant="h5" component="h2">
-                    CET Crash Course
+                  <Typography gutterBottom variant="h5" component="h2">
+                    Lizard
                   </Typography>
                   <Typography
                     variant="body2"
                     color="textSecondary"
                     component="p"
-                    className="text-center"
                   >
-                    IIT JEE
+                    Lizards are a widespread group of squamate reptiles, with
+                    over 6,000 species, ranging across all continents except
+                    Antarctica
                   </Typography>
                 </CardContent>
               </CardActionArea>
@@ -244,14 +244,15 @@ const IIT = () => {
                 <Button size="small" color="primary">
                   Share
                 </Button>
-                <Button size="small" style={{marginLeft: "125px"}}>
-                  <a href="/cetcrashiitjeecontent" style={{textColor: "primary"}}>Learn More</a>
+                <Button size="small" color="primary">
+                  Learn More
                 </Button>
               </CardActions>
             </Card>
           </Col>
         </Row>
       </Container>
+
       
     </div>
   );

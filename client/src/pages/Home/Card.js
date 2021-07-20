@@ -36,31 +36,32 @@ const CARD = () => {
               <CardActionArea>
                 <CardMedia
                   component="img"
-                  alt="IIT JEE 2022"
-                  height="210"
-                  image={iitjee2022}
-                  title="IIT JEE 2022"
+                  alt="Contemplative Reptile"
+                  height="140"
+                  image={logo}
+                  title="Contemplative Reptile"
                 />
                 <CardContent>
-                  <Typography gutterBottom variant="h5" component="h2" className="text-center">
-                   IIT/JEE
+                  <Typography gutterBottom variant="h5" component="h2">
+                    Lizard
                   </Typography>
                   <Typography
                     variant="body2"
                     color="textSecondary"
                     component="p"
-                    className="text-center"
                   >
-                    IIT/JEE Courses 
+                    Lizards are a widespread group of squamate reptiles, with
+                    over 6,000 species, ranging across all continents except
+                    Antarctica
                   </Typography>
                 </CardContent>
               </CardActionArea>
-              <CardActions >
-                <Button className="btn btn-primary ml-5">
-                  <a href="#" className="text-white mr-3">Share</a>
+              <CardActions>
+                <Button size="small" color="primary">
+                  Share
                 </Button>
-                <Button className="btn btn-primary">
-                  <a href="https://www.ceedmy.com/iit" className="text-white mr-3">Learn More</a>
+                <Button size="small" color="primary">
+                  Learn More
                 </Button>
               </CardActions>
             </Card>
@@ -70,31 +71,32 @@ const CARD = () => {
               <CardActionArea>
                 <CardMedia
                   component="img"
-                  alt="NEET 2022"
-                  height="210"
-                  image={neet2022}
-                  title="NEET 2022"
+                  alt="Contemplative Reptile"
+                  height="140"
+                  image={logo}
+                  title="Contemplative Reptile"
                 />
                 <CardContent>
-                  <Typography gutterBottom variant="h5" component="h2" className="text-center">
-                    NEET
+                  <Typography gutterBottom variant="h5" component="h2">
+                    Lizard
                   </Typography>
                   <Typography
                     variant="body2"
                     color="textSecondary"
                     component="p"
-                    className="text-center"
                   >
-                   NEET Course
+                    Lizards are a widespread group of squamate reptiles, with
+                    over 6,000 species, ranging across all continents except
+                    Antarctica
                   </Typography>
                 </CardContent>
               </CardActionArea>
               <CardActions>
-                <Button className="btn btn-primary ml-5">
-                  <a href="#" className="text-white mr-3">Share</a>
+                <Button size="small" color="primary">
+                  Share
                 </Button>
-                <Button className="btn btn-primary">
-                  <a href="https://www.ceedmy.com/neet" className="text-white mr-3">Learn More</a>
+                <Button size="small" color="primary">
+                  Learn More
                 </Button>
               </CardActions>
             </Card>
@@ -104,31 +106,32 @@ const CARD = () => {
               <CardActionArea>
                 <CardMedia
                   component="img"
-                  alt="UPSC CSE 2022"
-                  height="210"
-                  image={upsccse2022}
-                  title="UPSC CSE 2022"
+                  alt="Contemplative Reptile"
+                  height="140"
+                  image={logo}
+                  title="Contemplative Reptile"
                 />
                 <CardContent>
-                  <Typography gutterBottom variant="h5" component="h2" className="text-center">
-                    UPSC/IAS
+                  <Typography gutterBottom variant="h5" component="h2">
+                    Lizard
                   </Typography>
                   <Typography
                     variant="body2"
                     color="textSecondary"
                     component="p"
-                    className="text-center"
                   >
-                   UPSC/IAS Course
+                    Lizards are a widespread group of squamate reptiles, with
+                    over 6,000 species, ranging across all continents except
+                    Antarctica
                   </Typography>
                 </CardContent>
               </CardActionArea>
               <CardActions>
-                <Button className="btn btn-primary ml-5">
-                  <a href="#" className="text-white mr-3">Share</a>
+                <Button size="small" color="primary">
+                  Share
                 </Button>
-                <Button className="btn btn-primary">
-                  <a href="https://www.ceedmy.com/upsc" className="text-white mr-3">Learn More</a>
+                <Button size="small" color="primary">
+                  Learn More
                 </Button>
               </CardActions>
             </Card>

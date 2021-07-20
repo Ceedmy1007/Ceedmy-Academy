@@ -1,16 +1,5 @@
 import React from "react";
-import amplecontent from "./amplecontent.js"
-import binarycontent from "./binarycontent.js"
-import repeaterscontent from "./repeaterscontent.js"
-import crashcontent from "./crashcontent.js"
-import onlinecontent from "./onlinecontent.js"
-import distancecontent from "./distancecontent.js"
-import BinaryContainerCourses from "./BinaryContainerCourses.js";
-import AmpleContainerCourses from "./AmpleContainerCourses.js";
-import RepeatersContainerCourses from "./RepeatersContainerCourses.js";
-import CrashContainerCourses from "./CrashContainerCourses.js";
-import OnlineContainerCourses from "./OnlineContainerCourses.js";
-import DistanceContainerCourses from "./DistanceContainerCourses.js";
+
 import { makeStyles } from "@material-ui/core/styles";
 import TextField from "@material-ui/core/TextField";
 import Card from "@material-ui/core/Card";
@@ -22,12 +11,6 @@ import Button from "@material-ui/core/Button";
 import Typography from "@material-ui/core/Typography";
 import { Container, Row, Col } from "react-bootstrap";
 
-import ample from "../../images/ample.png";
-import binary from "../../images/binary.png";
-import crash from "../../images/crash.png";
-import distance from "../../images/distance.png";
-import online from "../../images/online.png";
-import repeaters from "../../images/repeaters.png";
 import logo from "../../images/logo.jpeg";
 
 const useStyles = makeStyles((theme) => ({
@@ -59,22 +42,23 @@ const Neet = () => {
               <CardActionArea>
                 <CardMedia
                   component="img"
-                  alt="Ample Program"
+                  alt="Contemplative Reptile"
                   height="140"
-                  image={ample}
-                  title="Ample Program"
+                  image={logo}
+                  title="Contemplative Reptile"
                 />
                 <CardContent>
-                  <Typography gutterBottom variant="h5" className="text-center" component="h2">
-                    Ample Program
+                  <Typography gutterBottom variant="h5" component="h2">
+                    Lizard
                   </Typography>
                   <Typography
                     variant="body2"
                     color="textSecondary"
                     component="p"
-                    className="text-center"
                   >
-                    NEET + AIIMS + JIPMER + OLYMPIADS
+                    Lizards are a widespread group of squamate reptiles, with
+                    over 6,000 species, ranging across all continents except
+                    Antarctica
                   </Typography>
                 </CardContent>
               </CardActionArea>
@@ -82,8 +66,8 @@ const Neet = () => {
                 <Button size="small" color="primary">
                   Share
                 </Button>
-                <Button size="small" style={{marginLeft: "125px"}}>
-                  <a href="/amplecontent" color="primary">Learn More</a>
+                <Button size="small" color="primary">
+                  Learn More
                 </Button>
               </CardActions>
             </Card>
@@ -93,22 +77,23 @@ const Neet = () => {
               <CardActionArea>
                 <CardMedia
                   component="img"
-                  alt="Binary Program"
+                  alt="Contemplative Reptile"
                   height="140"
-                  image={binary}
-                  title="Binary Program"
+                  image={logo}
+                  title="Contemplative Reptile"
                 />
                 <CardContent>
-                  <Typography gutterBottom variant="h5" className="text-center" component="h2">
-                    Binary Program
+                  <Typography gutterBottom variant="h5" component="h2">
+                    Lizard
                   </Typography>
                   <Typography
                     variant="body2"
                     color="textSecondary"
                     component="p"
-                    className="text-center"
                   >
-                    NEET + AIIMS + JIPMER
+                    Lizards are a widespread group of squamate reptiles, with
+                    over 6,000 species, ranging across all continents except
+                    Antarctica
                   </Typography>
                 </CardContent>
               </CardActionArea>
@@ -116,8 +101,8 @@ const Neet = () => {
                 <Button size="small" color="primary">
                   Share
                 </Button>
-                <Button size="small" style={{marginLeft: "125px"}}>
-                  <a href="/binarycontent" color="primary" >Learn More</a>
+                <Button size="small" color="primary">
+                  Learn More
                 </Button>
               </CardActions>
             </Card>
@@ -127,22 +112,23 @@ const Neet = () => {
               <CardActionArea>
                 <CardMedia
                   component="img"
-                  alt="Repeaters Program"
+                  alt="Contemplative Reptile"
                   height="140"
-                  image={repeaters}
-                  title="Repeaters Program"
+                  image={logo}
+                  title="Contemplative Reptile"
                 />
                 <CardContent>
-                  <Typography gutterBottom className="text-center" variant="h5" component="h2">
-                    Repeaters Program
+                  <Typography gutterBottom variant="h5" component="h2">
+                    Lizard
                   </Typography>
                   <Typography
                     variant="body2"
                     color="textSecondary"
                     component="p"
-                    className="text-center"
                   >
-                      NEET + AIIMS + JIPMER
+                    Lizards are a widespread group of squamate reptiles, with
+                    over 6,000 species, ranging across all continents except
+                    Antarctica
                   </Typography>
                 </CardContent>
               </CardActionArea>
@@ -150,8 +136,8 @@ const Neet = () => {
                 <Button size="small" color="primary">
                   Share
                 </Button>
-                <Button size="small" color="primary" style={{marginLeft: "125px"}}>
-                  <a href="/repeaterscontent" >Learn More</a>
+                <Button size="small" color="primary">
+                  Learn More
                 </Button>
               </CardActions>
             </Card>
@@ -164,22 +150,23 @@ const Neet = () => {
               <CardActionArea>
                 <CardMedia
                   component="img"
-                  alt="Crash Courses"
+                  alt="Contemplative Reptile"
                   height="140"
-                  image={crash}
-                  title="Crash Courses"
+                  image={logo}
+                  title="Contemplative Reptile"
                 />
                 <CardContent>
-                  <Typography gutterBottom className="text-center" variant="h5" component="h2">
-                    Crash Courses
+                  <Typography gutterBottom variant="h5" component="h2">
+                    Lizard
                   </Typography>
                   <Typography
                     variant="body2"
                     color="textSecondary"
                     component="p"
-                    className="text-center"
                   >
-                      NEET + AIIMS + JIPMER
+                    Lizards are a widespread group of squamate reptiles, with
+                    over 6,000 species, ranging across all continents except
+                    Antarctica
                   </Typography>
                 </CardContent>
               </CardActionArea>
@@ -187,8 +174,8 @@ const Neet = () => {
                 <Button size="small" color="primary">
                   Share
                 </Button>
-                <Button size="small" color="primary" style={{marginLeft: "125px"}}>
-                  <a href="/crashcontent" >Learn More</a>
+                <Button size="small" color="primary">
+                  Learn More
                 </Button>
               </CardActions>
             </Card>
@@ -198,22 +185,23 @@ const Neet = () => {
               <CardActionArea>
                 <CardMedia
                   component="img"
-                  alt="Test Series"
+                  alt="Contemplative Reptile"
                   height="140"
-                  image={online}
-                  title="Test Series"
+                  image={logo}
+                  title="Contemplative Reptile"
                 />
                 <CardContent>
-                  <Typography gutterBottom className="text-center" variant="h5" component="h2">
-                    All India Test Series
+                  <Typography gutterBottom variant="h5" component="h2">
+                    Lizard
                   </Typography>
                   <Typography
                     variant="body2"
                     color="textSecondary"
                     component="p"
-                    className="text-center"
                   >
-                      ONLINE/OFFLINE
+                    Lizards are a widespread group of squamate reptiles, with
+                    over 6,000 species, ranging across all continents except
+                    Antarctica
                   </Typography>
                 </CardContent>
               </CardActionArea>
@@ -221,8 +209,8 @@ const Neet = () => {
                 <Button size="small" color="primary">
                   Share
                 </Button>
-                <Button size="small" color="primary" style={{marginLeft: "125px"}}>
-                  <a href="/onlinecontent" >LEARN MORE</a>
+                <Button size="small" color="primary">
+                  Learn More
                 </Button>
               </CardActions>
             </Card>
@@ -232,22 +220,23 @@ const Neet = () => {
               <CardActionArea>
                 <CardMedia
                   component="img"
-                  alt="Distance Learning Courses"
+                  alt="Contemplative Reptile"
                   height="140"
-                  image={distance}
-                  title="Distance Learning Courses"
+                  image={logo}
+                  title="Contemplative Reptile"
                 />
                 <CardContent>
-                  <Typography gutterBottom className="text-center" variant="h5" component="h2">
-                    Distance Learning
+                  <Typography gutterBottom variant="h5" component="h2">
+                    Lizard
                   </Typography>
                   <Typography
                     variant="body2"
                     color="textSecondary"
                     component="p"
-                    className="text-center"
                   >
-                      NEET
+                    Lizards are a widespread group of squamate reptiles, with
+                    over 6,000 species, ranging across all continents except
+                    Antarctica
                   </Typography>
                 </CardContent>
               </CardActionArea>
@@ -255,14 +244,15 @@ const Neet = () => {
                 <Button size="small" color="primary">
                   Share
                 </Button>
-                <Button size="small" color="primary" style={{marginLeft: "125px"}}>
-                  <a href="/distancecontent">Learn More</a>
+                <Button size="small" color="primary">
+                  Learn More
                 </Button>
               </CardActions>
             </Card>
           </Col>
         </Row>
       </Container>
+
       
     </div>
   );
