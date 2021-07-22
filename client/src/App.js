@@ -26,6 +26,22 @@ import Upsccontent from "./pages/Content/UPSC/upsccontent";
 import Clatcontent from "./pages/Content/CLAT/clatcontent";
 import Quiz from "./pages/Content/Quizes/Quize";
 
+import zenithiitjeecourses from "./pages/Course/IITJEE2022Courses/zenithiitjeecourses";
+import cetcrashiitjeecourses from "./pages/Course/IITJEE2022Courses/cetcrashiitjeecourses";
+import crashiitjeecourses from "./pages/Course/IITJEE2022Courses/crashiitjeecourses";
+import distanceiitjeecourses from "./pages/Course/IITJEE2022Courses/distanceiitjeecourses";
+import jeecrashiitjeecourses from "./pages/Course/IITJEE2022Courses/jeecrashiitjeecourses";
+import supportiitjeecourses from "./pages/Course/IITJEE2022Courses/supportiitjeecourses";
+
+import aitsneetcourses from "./pages/Course/NEET2022Courses/aitsneetcourses";
+import ampleneetcourses from "./pages/Course/NEET2022Courses/ampleneetcourses";
+import binaryneetcourses from "./pages/Course/NEET2022Courses/binaryneetcourses";
+import crashneetcourses from "./pages/Course/NEET2022Courses/crashneetcourses";
+import distanceneetcourses from "./pages/Course/NEET2022Courses/distanceneetcourses";
+import repeatersneetcourses from "./pages/Course/NEET2022Courses/repeatersneetcourses";
+
+import upscfoundationcourses from "./pages/Course/UPSC2022Courses/upscfoundationcourses";
+
 // import Reports from "./Components/dashboard/Reports";
 // import Support from "./Components/dashboard/Support";
 // import Courses from "./Components/dashboard/Courses";
@@ -77,6 +93,22 @@ const DefaultRoutes = () => {
       <Route exact path="/upsccontent" component={Upsccontent} />
       <Route exact path="/clatcontent" component={Clatcontent} />
       <Route exact path="/quiz" component={Quiz} />
+
+      <Route exact path="/zenithiitjeecourses" component={zenithiitjeecourses} />
+      <Route exact path="/cetcrashiitjeecourses" component={cetcrashiitjeecourses} />
+      <Route exact path="/crashiitjeecourses" component={crashiitjeecourses} />
+      <Route exact path="/distanceiitjeecourses" component={distanceiitjeecourses} />
+      <Route exact path="/jeecrashiitjeecourses" component={jeecrashiitjeecourses} />
+      <Route exact path="/supportiitjeecourses" component={supportiitjeecourses} />
+
+      <Route exact path="/aitsneetcourses" component={aitsneetcourses} />
+      <Route exact path="/ampleneetcourses" component={ampleneetcourses} />
+      <Route exact path="/binaryneetcourses" component={binaryneetcourses} />
+      <Route exact path="/crashneetcourses" component={crashneetcourses} />
+      <Route exact path="/distanceneetcourses" component={distanceneetcourses} />
+      <Route exact path="/repeatersneetcourses" component={repeatersneetcourses} />
+
+      <Route exact path="/upscfoundationcourses" component={upscfoundationcourses} />      
     
     </Switch>
      <Footer />

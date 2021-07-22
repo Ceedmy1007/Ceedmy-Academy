@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from "react-router-dom";
 
 import { makeStyles } from "@material-ui/core/styles";
 import TextField from "@material-ui/core/TextField";
@@ -12,6 +13,8 @@ import Typography from "@material-ui/core/Typography";
 import { Container, Row, Col } from "react-bootstrap";
 
 import logo from "../../images/logo.jpeg";
+
+import upscfoundationcourses from "./UPSC2022Courses/upscfoundationcourses.js";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -48,17 +51,16 @@ const Upsc = () => {
                   title="Contemplative Reptile"
                 />
                 <CardContent>
-                  <Typography gutterBottom variant="h5" component="h2">
-                    Lizard
+                  <Typography gutterBottom className="text-center" variant="h5" component="h2">
+                    UPSC
                   </Typography>
                   <Typography
                     variant="body2"
                     color="textSecondary"
                     component="p"
+                    className="text-center"
                   >
-                    Lizards are a widespread group of squamate reptiles, with
-                    over 6,000 species, ranging across all continents except
-                    Antarctica
+                    Basic Foundation Program
                   </Typography>
                 </CardContent>
               </CardActionArea>
@@ -67,7 +69,7 @@ const Upsc = () => {
                   Share
                 </Button>
                 <Button size="small" color="primary">
-                  Learn More
+                  <Link to="/upscfoundationcourses">Learn More</Link>
                 </Button>
               </CardActions>
             </Card>

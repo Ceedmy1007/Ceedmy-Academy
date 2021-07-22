@@ -1,5 +1,5 @@
 import React from "react";
-
+import {Link} from "react-router-dom";
 import { makeStyles } from "@material-ui/core/styles";
 
 import Card from "@material-ui/core/Card";
@@ -10,7 +10,11 @@ import CardMedia from "@material-ui/core/CardMedia";
 import Button from "@material-ui/core/Button";
 import Typography from "@material-ui/core/Typography";
 import { Container, Row, Col } from "react-bootstrap";
+
 import logo from "../../images/logo.jpeg";
+import iitjee2022 from "../../images/iitjee2022.png";
+import neet2022 from "../../images/neet2022.png";
+import upsccse2022 from "../../images/upsccse2022.png";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -34,22 +38,21 @@ const CARD = () => {
                 <CardMedia
                   component="img"
                   alt="Contemplative Reptile"
-                  height="140"
-                  image={logo}
+                  height="210"
+                  image={iitjee2022}
                   title="Contemplative Reptile"
                 />
                 <CardContent>
-                  <Typography gutterBottom variant="h5" component="h2">
-                    Lizard
+                  <Typography gutterBottom variant="h5" component="h2" className="text-center">
+                    IIT Jee
                   </Typography>
                   <Typography
                     variant="body2"
                     color="textSecondary"
                     component="p"
+                    className="text-center"
                   >
-                    Lizards are a widespread group of squamate reptiles, with
-                    over 6,000 species, ranging across all continents except
-                    Antarctica
+                   Pre + Mains + Olympiads
                   </Typography>
                 </CardContent>
               </CardActionArea>
@@ -57,8 +60,8 @@ const CARD = () => {
                 <Button size="small" color="primary">
                   Share
                 </Button>
-                <Button size="small" color="primary">
-                  Learn More
+                <Button size="small" color="primary" style={{marginLeft: "125px"}}>
+                  <Link to="/iit">Learn More</Link>
                 </Button>
               </CardActions>
             </Card>
@@ -69,22 +72,21 @@ const CARD = () => {
                 <CardMedia
                   component="img"
                   alt="Contemplative Reptile"
-                  height="140"
-                  image={logo}
+                  height="210"
+                  image={neet2022}
                   title="Contemplative Reptile"
                 />
                 <CardContent>
-                  <Typography gutterBottom variant="h5" component="h2">
-                    Lizard
+                  <Typography gutterBottom className="text-center" variant="h5" component="h2">
+                    NEET
                   </Typography>
                   <Typography
                     variant="body2"
                     color="textSecondary"
                     component="p"
+                    className="text-center"
                   >
-                    Lizards are a widespread group of squamate reptiles, with
-                    over 6,000 species, ranging across all continents except
-                    Antarctica
+                    AIIMS + JIPMER + OLYMPIADS
                   </Typography>
                 </CardContent>
               </CardActionArea>
@@ -92,8 +94,8 @@ const CARD = () => {
                 <Button size="small" color="primary">
                   Share
                 </Button>
-                <Button size="small" color="primary">
-                  Learn More
+                <Button size="small" color="primary" style={{marginLeft: "125px"}}>
+                  <Link to="/neet">Learn More</Link>
                 </Button>
               </CardActions>
             </Card>
@@ -104,22 +106,21 @@ const CARD = () => {
                 <CardMedia
                   component="img"
                   alt="Contemplative Reptile"
-                  height="140"
-                  image={logo}
+                  height="210"
+                  image={upsccse2022}
                   title="Contemplative Reptile"
                 />
                 <CardContent>
-                  <Typography gutterBottom variant="h5" component="h2">
-                    Lizard
+                  <Typography className="text-center" gutterBottom variant="h5" component="h2">
+                    UPSC
                   </Typography>
                   <Typography
                     variant="body2"
                     color="textSecondary"
                     component="p"
+                    className="text-center"
                   >
-                    Lizards are a widespread group of squamate reptiles, with
-                    over 6,000 species, ranging across all continents except
-                    Antarctica
+                     UPSC Foundation Course
                   </Typography>
                 </CardContent>
               </CardActionArea>
@@ -127,8 +128,8 @@ const CARD = () => {
                 <Button size="small" color="primary">
                   Share
                 </Button>
-                <Button size="small" color="primary">
-                  Learn More
+                <Button size="small" color="primary" style={{marginLeft: "125px"}}>
+                 <Link to="/upsc">Learn More</Link>
                 </Button>
               </CardActions>
             </Card>
