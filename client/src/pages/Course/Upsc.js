@@ -30,7 +30,7 @@ const Upsc = () => {
   return (
     <div>
       
-      <h1 className="text-center mt-2">UPSC COURSE</h1>
+      <h1 className="text-center mt-2">UPSC CSE Foundation 2022</h1>
       <div className="d-flex justify-content-center mt-2">
         <form className={classes.root} noValidate autoComplete="off">
           <TextField id="outlined-basic" label="Filter" variant="outlined" />

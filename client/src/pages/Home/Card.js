@@ -120,7 +120,7 @@ const CARD = () => {
                     component="p"
                     className="text-center"
                   >
-                     UPSC Foundation Course
+                     UPSC CSE Foundation 2022
                   </Typography>
                 </CardContent>
               </CardActionArea>
