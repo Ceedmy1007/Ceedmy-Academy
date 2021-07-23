@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from "react-router-dom";
 
 import "./Course.css";
 
@@ -12,42 +13,48 @@ const Course = () => {
           <div class="col col-md-auto">
             <li className="list-unstyled ">
               <h3>
-                <a href="/upsc">UPSC/IAS</a>
+                
+                <Link to="/upsc">UPSC/IAS</Link>
               </h3>
             </li>
           </div>
           <div class="col col-md-auto">
             <li className="list-unstyled ">
               <h3>
-                <a href="/mpsc">MPSC</a>
+                
+                <Link to="/mpsc">MPSC</Link>
               </h3>
             </li>
           </div>
           <div class="col col-md-auto">
             <li className="list-unstyled ">
               <h3>
-                <a href="/iit">IIT/JEE</a>
+              
+                <Link to="/iit">IIT/JEE</Link>
               </h3>
             </li>
           </div>
           <div class="col col-md-auto">
             <li className="list-unstyled ">
               <h3>
-                <a href="/neet">NEET</a>
+                
+                <Link to="/neet">NEET</Link>
               </h3>
             </li>
           </div>
           <div class="col col-md-auto">
             <li className="list-unstyled ">
               <h3>
-                <a href="/school">CBSE,ICSE,STATE BOARD</a>
+                
+                <Link to="/school">CBSE,ICSE,STATE BOARD</Link>
               </h3>
             </li>
           </div>
           <div class="col col-md-auto">
             <li className="list-unstyled ">
               <h3>
-                <a href="/clat">CLAT</a>
+                
+                <Link to="/clat">CLAT</Link>
               </h3>
             </li>
           </div>
