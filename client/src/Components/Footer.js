@@ -13,8 +13,7 @@ const Footer = () => {
 
     <div className="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
       <h5 className="text-uppercase mb-4 font-weight-bold text-body">Ceedmy</h5>
-      <p>Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
-        ital consectetur lorem ipsum dolor sit amet adipisicing elit.</p>
+      <p>CEEDMY is one of India's emerging educational institutions which will provide personalized guidance, study material, world-class faculty, and everything else needed to clear any government exam.</p>
       
     </div>
 
@@ -27,7 +26,7 @@ const Footer = () => {
       <a href="/course" className="text-body" style={{textDecoration: "none"}}> Buy Courses</a>
     </p>
     <p>
-      <a href="succes" className="text-body" style={{textDecoration: "none"}}> Succes Stories</a>
+      <a href="succes" className="text-body" style={{textDecoration: "none"}}> Success Stories</a>
     </p>
     <p>
       <a href="/about" className="text-body" style={{textDecoration: "none"}}> About us</a>
@@ -57,10 +56,10 @@ const Footer = () => {
         <i className="fas fa-home mr-3"></i>Thane West, Maharashtra 400601
       </p>
       <p>
-        <i className="fas fa-envelope mr-3"></i>ceedmyelearning98@gmail.com
+        <i className="fas fa-envelope mr-3"></i>Ceedmy@gmail.com
       </p>
       <p>
-        <i className="fas fa-phone mr-3"></i>+91 7447667564
+        <i className="fas fa-phone mr-3"></i>+91-7900007174
       </p>
       <p>
         <i className="fas fa-print	 mr-3"></i>+01 335 633 77
@@ -116,3 +115,4 @@ const Footer = () => {
 };
 
 export default Footer;
+
