@@ -26,6 +26,10 @@ import Upsccontent from "./pages/Content/UPSC/upsccontent";
 import Clatcontent from "./pages/Content/CLAT/clatcontent";
 import Quiz from "./pages/Content/Quizes/Quize";
 
+import ncert from "./pages/Content/NCERT/ncert";
+
+
+
 import zenithiitjeecourses from "./pages/Course/IITJEE2022Courses/zenithiitjeecourses";
 import cetcrashiitjeecourses from "./pages/Course/IITJEE2022Courses/cetcrashiitjeecourses";
 import crashiitjeecourses from "./pages/Course/IITJEE2022Courses/crashiitjeecourses";
@@ -93,7 +97,9 @@ const DefaultRoutes = () => {
       <Route exact path="/upsccontent" component={Upsccontent} />
       <Route exact path="/clatcontent" component={Clatcontent} />
       <Route exact path="/quiz" component={Quiz} />
-
+      
+      <Route exact path="/ncert" component={ncert} />
+       
       <Route exact path="/zenithiitjeecourses" component={zenithiitjeecourses} />
       <Route exact path="/cetcrashiitjeecourses" component={cetcrashiitjeecourses} />
       <Route exact path="/crashiitjeecourses" component={crashiitjeecourses} />
@@ -133,3 +139,4 @@ const App = () => {
   );
 };
 export default App;
+
