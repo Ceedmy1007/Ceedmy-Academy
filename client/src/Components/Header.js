@@ -30,12 +30,12 @@ const Header = () => {
 
             </NavDropdown>
             <NavDropdown title="Scholarship" id="navbarScrollingDropdown">
-              <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
+              <NavDropdown.Item href="#action3">Admission cum Scholarship Test</NavDropdown.Item>
               <NavDropdown.Item href="#action4">
-                Another action
+                Classroom Integrated Scholarship
               </NavDropdown.Item>
               <NavDropdown.Item href="#action5">
-                Something else here
+                Test Series Scholarship
               </NavDropdown.Item>
             </NavDropdown>
             <Nav.Link ><Link to="/course">Buy a Course</Link></Nav.Link>
@@ -54,4 +54,6 @@ const Header = () => {
 };
 
 export default Header;
+
+
 
