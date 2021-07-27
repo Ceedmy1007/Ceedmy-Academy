@@ -13,6 +13,12 @@ import Typography from "@material-ui/core/Typography";
 import { Container, Row, Col } from "react-bootstrap";
 
 import logo from "../../images/logo.jpeg";
+import zenithiitjee from "../../images/zenithiitjee.jpeg";
+import distanceiitjee from "../../images/distanceiitjee.jpeg";
+import crashiitjee from "../../images/crashiitjee.jpeg";
+import jeecrashiitjee from "../../images/jeecrashiitjee.jpeg";
+import cetcrashiitjee from "../../images/cetcrashiitjee.jpeg";
+import supportiitjee from "../../images/supportiitjee.jpeg";
 
 import zenithiitjeecourses from "./IITJEE2022Courses/zenithiitjeecourses.js";
 import cetcrashiitjeecourses from "./IITJEE2022Courses/cetcrashiitjeecourses.js";
@@ -50,10 +56,10 @@ const IIT = () => {
               <CardActionArea>
                 <CardMedia
                   component="img"
-                  alt="Contemplative Reptile"
+                  alt="Zenith Program"
                   height="140"
-                  image={logo}
-                  title="Contemplative Reptile"
+                  image={zenithiitjee}
+                  title="Zenith Program"
                 />
                 <CardContent>
                   <Typography gutterBottom className="text-center" variant="h5" component="h2">
@@ -84,10 +90,10 @@ const IIT = () => {
               <CardActionArea>
                 <CardMedia
                   component="img"
-                  alt="Contemplative Reptile"
+                  alt="Support Program"
                   height="140"
-                  image={logo}
-                  title="Contemplative Reptile"
+                  image={supportiitjee}
+                  title="Support Program"
                 />
                 <CardContent>
                   <Typography gutterBottom className="text-center" variant="h5" component="h2">
@@ -119,10 +125,10 @@ const IIT = () => {
               <CardActionArea>
                 <CardMedia
                   component="img"
-                  alt="Contemplative Reptile"
+                  alt="JEE Crash Course"
                   height="140"
-                  image={logo}
-                  title="Contemplative Reptile"
+                  image={jeecrashiitjee}
+                  title="JEE Crash Course"
                 />
                 <CardContent>
                   <Typography gutterBottom className="text-center" variant="h5" component="h2">
@@ -157,10 +163,10 @@ const IIT = () => {
               <CardActionArea>
                 <CardMedia
                   component="img"
-                  alt="Contemplative Reptile"
+                  alt="Distance Learning"
                   height="140"
-                  image={logo}
-                  title="Contemplative Reptile"
+                  image={distanceiitjee}
+                  title="Distance Learning"
                 />
                 <CardContent>
                   <Typography gutterBottom className="text-center" variant="h5" component="h2">
@@ -192,10 +198,10 @@ const IIT = () => {
               <CardActionArea>
                 <CardMedia
                   component="img"
-                  alt="Contemplative Reptile"
+                  alt="Crash Courses"
                   height="140"
-                  image={logo}
-                  title="Contemplative Reptile"
+                  image={crashiitjee}
+                  title="Crash Courses"
                 />
                 <CardContent>
                   <Typography gutterBottom className="text-center" variant="h5" component="h2">
@@ -227,10 +233,10 @@ const IIT = () => {
               <CardActionArea>
                 <CardMedia
                   component="img"
-                  alt="Contemplative Reptile"
+                  alt="CET Crash Course"
                   height="140"
-                  image={logo}
-                  title="Contemplative Reptile"
+                  image={cetcrashiitjee}
+                  title="CET Crash Course"
                 />
                 <CardContent>
                   <Typography gutterBottom className="text-center" variant="h5" component="h2">
