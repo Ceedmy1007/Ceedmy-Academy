@@ -26,6 +26,7 @@ const Header = () => {
               <NavDropdown.Item><Link to="/mpsccontent">NEET</Link></NavDropdown.Item>
               <NavDropdown.Item ><Link to="/upsccontent">IIT-JEE</Link></NavDropdown.Item>
               <NavDropdown.Item ><Link to="/clatcontent">UPSC</Link></NavDropdown.Item>
+              <NavDropdown.Item ><Link to="/ncert">NCERT Books</Link></NavDropdown.Item>
 
             </NavDropdown>
             <NavDropdown title="Scholarship" id="navbarScrollingDropdown">
@@ -53,3 +54,4 @@ const Header = () => {
 };
 
 export default Header;
+
