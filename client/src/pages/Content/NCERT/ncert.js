@@ -117,7 +117,7 @@ const ncert = () => {
               <CardActionArea>
                 <CardContent>
                   <Typography gutterBottom className="text-center" variant="h5" component="h2">
-                    Prithvi Hmara Awas
+                    Prithvi Hamara Awas
                   </Typography>
                 </CardContent>
               </CardActionArea>
@@ -134,7 +134,7 @@ const ncert = () => {
               <CardActionArea>
                 <CardContent>
                   <Typography gutterBottom className="text-center" variant="h5" component="h2">
-                    Hmare Atit - I
+                    Hamare Atit - I
                   </Typography>
                 </CardContent>
               </CardActionArea>
@@ -350,7 +350,7 @@ const ncert = () => {
               <CardActionArea>
                 <CardContent>
                   <Typography gutterBottom className="text-center" variant="h5" component="h2">
-                    Hmara Prayavaran 
+                    Hamara Prayavaran 
                   </Typography>
                 </CardContent>
               </CardActionArea>
@@ -367,7 +367,7 @@ const ncert = () => {
               <CardActionArea>
                 <CardContent>
                   <Typography gutterBottom className="text-center" variant="h5" component="h2">
-                    Hmare Atit - II
+                    Hamare Atit - II
                   </Typography>
                 </CardContent>
               </CardActionArea>
@@ -601,7 +601,7 @@ const ncert = () => {
               <CardActionArea>
                 <CardContent>
                   <Typography gutterBottom className="text-center" variant="h5" component="h2">
-                    Hmare Atit - III
+                    Hamare Atit - III
                   </Typography>
                 </CardContent>
               </CardActionArea>
