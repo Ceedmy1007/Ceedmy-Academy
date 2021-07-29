@@ -85,20 +85,20 @@ const Footer = () => {
 
         <ul className="list-unstyled list-inline">
           <li className="list-inline-item">
-            <a href="#" className="btn-floating btn-sm text-body" style={{fontSize: "23px"}}><i class="fab fa-facebook"></i></a>
+            <a href="https://www.facebook.com/Ceedmyonline" rel="noopener noreferrer" target="_blank" className="btn-floating btn-sm text-body" style={{fontSize: "23px"}}><i class="fab fa-facebook"></i></a>
           </li>
           <li className="list-inline-item">
-            <a href="#" className="btn-floating btn-sm text-body" style={{fontSize: "23px"}}><i class="fab fa-twitter"></i></a>
+            <a href="https://twitter.com/ceedmy" rel="noopener noreferrer" target="_blank" className="btn-floating btn-sm text-body" style={{fontSize: "23px"}}><i class="fab fa-twitter"></i></a>
           </li>
           <li className="list-inline-item">
-            <a href="#" className="btn-floating btn-sm text-body" style={{fontSize: "23px"}}><i class="fab fa-google-plus"></i></a>
+            <a href="https://in.linkedin.com/company/ceedmy" rel="noopener noreferrer" target="_blank" className="btn-floating btn-sm text-body" style={{fontSize: "23px"}}><i class="fab fa-linkedin-in"></i></a>
           </li>
           <li className="list-inline-item">
-            <a href="#" className="btn-floating btn-sm text-body" style={{fontSize: "23px"}}><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://www.youtube.com/channel/UC0VQDXgPsjVWvQJTEhcE5EA" rel="noopener noreferrer" target="_blank" className="btn-floating btn-sm text-body" style={{fontSize: "23px"}}><i class="fab fa-youtube"></i></a>
           </li>
           <li className="list-inline-item">
-            <a href="#" className="btn-floating btn-sm text-body" style={{fontSize: "23px"}}><i class="fab fa-youtube"></i></a>
-          </li>
+            <a href="https://api.whatsapp.com/send?phone=+917900007174" rel="noopener noreferrer" target="_blank" className="btn-floating btn-sm text-body" style={{fontSize: "23px"}}><i class="fab fa-whatsapp"></i></a>
+          </li>          
         </ul>
         
       </div>
@@ -115,4 +115,3 @@ const Footer = () => {
 };
 
 export default Footer;
-
